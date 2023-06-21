@@ -1,0 +1,5049 @@
+fileFormatVersion: 2
+guid: bceda66b02f877d45a441687413056e6
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: eyes
+    100002: gums0
+    100004: gums1
+    100006: head
+    100008: jaw0
+    100010: jaw1
+    100012: left arm0
+    100014: left arm1
+    100016: left arm2
+    100018: left eye
+    100020: left foot0
+    100022: left foot1
+    100024: left hand
+    100026: left hips
+    100028: left leg
+    100030: left toe0
+    100032: left toe1
+    100034: left toe2
+    100036: left toe3
+    100038: left toe4
+    100040: left toe5
+    100042: neck0
+    100044: neck1
+    100046: neck2
+    100048: Rex
+    100050: //RootNode
+    100052: rex_LOD_0
+    100054: rex_LOD_1
+    100056: rex_LOD_2
+    100058: right arm0
+    100060: right arm1
+    100062: right arm2
+    100064: right eye
+    100066: right foot0
+    100068: right foot1
+    100070: right hand
+    100072: right hips
+    100074: right leg
+    100076: right toe0
+    100078: right toe1
+    100080: right toe2
+    100082: right toe3
+    100084: right toe4
+    100086: right toe5
+    100088: root
+    100090: spine0
+    100092: spine1
+    100094: spine2
+    100096: spine3
+    100098: tail0
+    100100: tail1
+    100102: tail2
+    100104: tail3
+    100106: tail4
+    100108: tail5
+    100110: tail6
+    100112: tail7
+    100114: tail8
+    100116: tongue0
+    100118: tongue1
+    100120: tongue2
+    100122: tongue3
+    400000: eyes
+    400002: gums0
+    400004: gums1
+    400006: head
+    400008: jaw0
+    400010: jaw1
+    400012: left arm0
+    400014: left arm1
+    400016: left arm2
+    400018: left eye
+    400020: left foot0
+    400022: left foot1
+    400024: left hand
+    400026: left hips
+    400028: left leg
+    400030: left toe0
+    400032: left toe1
+    400034: left toe2
+    400036: left toe3
+    400038: left toe4
+    400040: left toe5
+    400042: neck0
+    400044: neck1
+    400046: neck2
+    400048: Rex
+    400050: //RootNode
+    400052: rex_LOD_0
+    400054: rex_LOD_1
+    400056: rex_LOD_2
+    400058: right arm0
+    400060: right arm1
+    400062: right arm2
+    400064: right eye
+    400066: right foot0
+    400068: right foot1
+    400070: right hand
+    400072: right hips
+    400074: right leg
+    400076: right toe0
+    400078: right toe1
+    400080: right toe2
+    400082: right toe3
+    400084: right toe4
+    400086: right toe5
+    400088: root
+    400090: spine0
+    400092: spine1
+    400094: spine2
+    400096: spine3
+    400098: tail0
+    400100: tail1
+    400102: tail2
+    400104: tail3
+    400106: tail4
+    400108: tail5
+    400110: tail6
+    400112: tail7
+    400114: tail8
+    400116: tongue0
+    400118: tongue1
+    400120: tongue2
+    400122: tongue3
+    4300000: rex_LOD_0
+    4300002: rex_LOD_1
+    4300004: rex_LOD_2
+    7400000: Rex|Die1
+    7400002: Rex|Die2
+    7400004: Rex|EatA
+    7400006: Rex|EatB
+    7400008: Rex|EatC
+    7400010: Rex|SleepLoop
+    7400012: Rex|Stand1A
+    7400014: Rex|Stand1Attack
+    7400016: Rex|Stand1B
+    7400018: Rex|Stand1C
+    7400020: Rex|Stand1ToWalk
+    7400022: Rex|Stand2A
+    7400024: Rex|Stand2Attack
+    7400026: Rex|Stand2B
+    7400028: Rex|Stand2C
+    7400030: Rex|Stand2D
+    7400032: Rex|Stand2ToSleep
+    7400034: Rex|Stand2ToWalk
+    7400036: Rex|Step1
+    7400038: Rex|Step1Attack
+    7400040: Rex|Step2
+    7400042: Rex|Step2Attack
+    7400044: Rex|Strafe1
+    7400046: Rex|Strafe2
+    7400048: Rex|Walk
+    7400050: Rex|WalkAttackA
+    7400052: Rex|WalkAttackB
+    7400054: Rex|WalkGrowl
+    7400056: Rex|WalkToStand2
+    9500000: //RootNode
+    13700000: rex_LOD_0
+    13700002: rex_LOD_1
+    13700004: rex_LOD_2
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: eyes
+    second: {fileID: 2100000, guid: 4da311f86e934e049b2677be3264a02a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rex
+    second: {fileID: 2100000, guid: 0dc1555843a3f4d40807e0e6c3354629, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Rex|Die1
+      takeName: Rex|Die1
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Rex
+        weight: 1
+      - path: Rex/root
+        weight: 1
+      - path: Rex/root/spine0
+        weight: 1
+      - path: Rex/root/spine0/spine1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2/left
+          hand
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/left
+          eye
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/right
+          eye
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0/gums1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/jaw1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2/tongue3
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2/right
+          hand
+        weight: 1
+      - path: Rex/root/tail0
+        weight: 1
+      - path: Rex/root/tail0/tail1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe0
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe0/left
+          toe1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe2
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe2/left
+          toe3
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe4
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe4/left
+          toe5
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0/right toe1
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2/right toe3
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4/right toe5
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: rex_LOD_0
+        weight: 1
+      - path: rex_LOD_1
+        weight: 1
+      - path: rex_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Rex|Die2
+      takeName: Rex|Die2
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Rex
+        weight: 1
+      - path: Rex/root
+        weight: 1
+      - path: Rex/root/spine0
+        weight: 1
+      - path: Rex/root/spine0/spine1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2/left
+          hand
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/left
+          eye
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/right
+          eye
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0/gums1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/jaw1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2/tongue3
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2/right
+          hand
+        weight: 1
+      - path: Rex/root/tail0
+        weight: 1
+      - path: Rex/root/tail0/tail1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe0
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe0/left
+          toe1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe2
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe2/left
+          toe3
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe4
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe4/left
+          toe5
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0/right toe1
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2/right toe3
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4/right toe5
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: rex_LOD_0
+        weight: 1
+      - path: rex_LOD_1
+        weight: 1
+      - path: rex_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Rex|EatA
+      takeName: Rex|EatA
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Rex
+        weight: 1
+      - path: Rex/root
+        weight: 1
+      - path: Rex/root/spine0
+        weight: 1
+      - path: Rex/root/spine0/spine1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2/left
+          hand
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/left
+          eye
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/right
+          eye
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0/gums1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/jaw1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2/tongue3
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2/right
+          hand
+        weight: 1
+      - path: Rex/root/tail0
+        weight: 1
+      - path: Rex/root/tail0/tail1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe0
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe0/left
+          toe1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe2
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe2/left
+          toe3
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe4
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe4/left
+          toe5
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0/right toe1
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2/right toe3
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4/right toe5
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: rex_LOD_0
+        weight: 1
+      - path: rex_LOD_1
+        weight: 1
+      - path: rex_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Rex|EatB
+      takeName: Rex|EatB
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Rex
+        weight: 1
+      - path: Rex/root
+        weight: 1
+      - path: Rex/root/spine0
+        weight: 1
+      - path: Rex/root/spine0/spine1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2/left
+          hand
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/left
+          eye
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/right
+          eye
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0/gums1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/jaw1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2/tongue3
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2/right
+          hand
+        weight: 1
+      - path: Rex/root/tail0
+        weight: 1
+      - path: Rex/root/tail0/tail1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe0
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe0/left
+          toe1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe2
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe2/left
+          toe3
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe4
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe4/left
+          toe5
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0/right toe1
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2/right toe3
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4/right toe5
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: rex_LOD_0
+        weight: 1
+      - path: rex_LOD_1
+        weight: 1
+      - path: rex_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Rex|EatC
+      takeName: Rex|EatC
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Rex
+        weight: 1
+      - path: Rex/root
+        weight: 1
+      - path: Rex/root/spine0
+        weight: 1
+      - path: Rex/root/spine0/spine1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2/left
+          hand
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/left
+          eye
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/right
+          eye
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0/gums1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/jaw1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2/tongue3
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2/right
+          hand
+        weight: 1
+      - path: Rex/root/tail0
+        weight: 1
+      - path: Rex/root/tail0/tail1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe0
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe0/left
+          toe1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe2
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe2/left
+          toe3
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe4
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe4/left
+          toe5
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0/right toe1
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2/right toe3
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4/right toe5
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: rex_LOD_0
+        weight: 1
+      - path: rex_LOD_1
+        weight: 1
+      - path: rex_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Rex|SleepLoop
+      takeName: Rex|SleepLoop
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Rex
+        weight: 1
+      - path: Rex/root
+        weight: 1
+      - path: Rex/root/spine0
+        weight: 1
+      - path: Rex/root/spine0/spine1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2/left
+          hand
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/left
+          eye
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/right
+          eye
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0/gums1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/jaw1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2/tongue3
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2/right
+          hand
+        weight: 1
+      - path: Rex/root/tail0
+        weight: 1
+      - path: Rex/root/tail0/tail1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe0
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe0/left
+          toe1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe2
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe2/left
+          toe3
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe4
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe4/left
+          toe5
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0/right toe1
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2/right toe3
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4/right toe5
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: rex_LOD_0
+        weight: 1
+      - path: rex_LOD_1
+        weight: 1
+      - path: rex_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Rex|Stand1A
+      takeName: Rex|Stand1A
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Rex
+        weight: 1
+      - path: Rex/root
+        weight: 1
+      - path: Rex/root/spine0
+        weight: 1
+      - path: Rex/root/spine0/spine1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2/left
+          hand
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/left
+          eye
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/right
+          eye
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0/gums1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/jaw1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2/tongue3
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2/right
+          hand
+        weight: 1
+      - path: Rex/root/tail0
+        weight: 1
+      - path: Rex/root/tail0/tail1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe0
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe0/left
+          toe1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe2
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe2/left
+          toe3
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe4
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe4/left
+          toe5
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0/right toe1
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2/right toe3
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4/right toe5
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: rex_LOD_0
+        weight: 1
+      - path: rex_LOD_1
+        weight: 1
+      - path: rex_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Rex|Stand1Attack
+      takeName: Rex|Stand1Attack
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Rex
+        weight: 1
+      - path: Rex/root
+        weight: 1
+      - path: Rex/root/spine0
+        weight: 1
+      - path: Rex/root/spine0/spine1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2/left
+          hand
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/left
+          eye
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/right
+          eye
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0/gums1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/jaw1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2/tongue3
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2/right
+          hand
+        weight: 1
+      - path: Rex/root/tail0
+        weight: 1
+      - path: Rex/root/tail0/tail1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe0
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe0/left
+          toe1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe2
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe2/left
+          toe3
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe4
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe4/left
+          toe5
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0/right toe1
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2/right toe3
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4/right toe5
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: rex_LOD_0
+        weight: 1
+      - path: rex_LOD_1
+        weight: 1
+      - path: rex_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Rex|Stand1B
+      takeName: Rex|Stand1B
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Rex
+        weight: 1
+      - path: Rex/root
+        weight: 1
+      - path: Rex/root/spine0
+        weight: 1
+      - path: Rex/root/spine0/spine1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2/left
+          hand
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/left
+          eye
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/right
+          eye
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0/gums1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/jaw1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2/tongue3
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2/right
+          hand
+        weight: 1
+      - path: Rex/root/tail0
+        weight: 1
+      - path: Rex/root/tail0/tail1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe0
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe0/left
+          toe1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe2
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe2/left
+          toe3
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe4
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe4/left
+          toe5
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0/right toe1
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2/right toe3
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4/right toe5
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: rex_LOD_0
+        weight: 1
+      - path: rex_LOD_1
+        weight: 1
+      - path: rex_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Rex|Stand1C
+      takeName: Rex|Stand1C
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Rex
+        weight: 1
+      - path: Rex/root
+        weight: 1
+      - path: Rex/root/spine0
+        weight: 1
+      - path: Rex/root/spine0/spine1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2/left
+          hand
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/left
+          eye
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/right
+          eye
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0/gums1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/jaw1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2/tongue3
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2/right
+          hand
+        weight: 1
+      - path: Rex/root/tail0
+        weight: 1
+      - path: Rex/root/tail0/tail1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe0
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe0/left
+          toe1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe2
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe2/left
+          toe3
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe4
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe4/left
+          toe5
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0/right toe1
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2/right toe3
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4/right toe5
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: rex_LOD_0
+        weight: 1
+      - path: rex_LOD_1
+        weight: 1
+      - path: rex_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Rex|Stand1ToWalk
+      takeName: Rex|Stand1ToWalk
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Rex
+        weight: 1
+      - path: Rex/root
+        weight: 1
+      - path: Rex/root/spine0
+        weight: 1
+      - path: Rex/root/spine0/spine1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2/left
+          hand
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/left
+          eye
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/right
+          eye
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0/gums1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/jaw1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2/tongue3
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2/right
+          hand
+        weight: 1
+      - path: Rex/root/tail0
+        weight: 1
+      - path: Rex/root/tail0/tail1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe0
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe0/left
+          toe1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe2
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe2/left
+          toe3
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe4
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe4/left
+          toe5
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0/right toe1
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2/right toe3
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4/right toe5
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: rex_LOD_0
+        weight: 1
+      - path: rex_LOD_1
+        weight: 1
+      - path: rex_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Rex|Stand2A
+      takeName: Rex|Stand2A
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Rex
+        weight: 1
+      - path: Rex/root
+        weight: 1
+      - path: Rex/root/spine0
+        weight: 1
+      - path: Rex/root/spine0/spine1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2/left
+          hand
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/left
+          eye
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/right
+          eye
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0/gums1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/jaw1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2/tongue3
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2/right
+          hand
+        weight: 1
+      - path: Rex/root/tail0
+        weight: 1
+      - path: Rex/root/tail0/tail1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe0
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe0/left
+          toe1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe2
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe2/left
+          toe3
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe4
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe4/left
+          toe5
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0/right toe1
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2/right toe3
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4/right toe5
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: rex_LOD_0
+        weight: 1
+      - path: rex_LOD_1
+        weight: 1
+      - path: rex_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Rex|Stand2Attack
+      takeName: Rex|Stand2Attack
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Rex
+        weight: 1
+      - path: Rex/root
+        weight: 1
+      - path: Rex/root/spine0
+        weight: 1
+      - path: Rex/root/spine0/spine1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2/left
+          hand
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/left
+          eye
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/right
+          eye
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0/gums1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/jaw1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2/tongue3
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2/right
+          hand
+        weight: 1
+      - path: Rex/root/tail0
+        weight: 1
+      - path: Rex/root/tail0/tail1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe0
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe0/left
+          toe1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe2
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe2/left
+          toe3
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe4
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe4/left
+          toe5
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0/right toe1
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2/right toe3
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4/right toe5
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: rex_LOD_0
+        weight: 1
+      - path: rex_LOD_1
+        weight: 1
+      - path: rex_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Rex|Stand2B
+      takeName: Rex|Stand2B
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Rex
+        weight: 1
+      - path: Rex/root
+        weight: 1
+      - path: Rex/root/spine0
+        weight: 1
+      - path: Rex/root/spine0/spine1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2/left
+          hand
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/left
+          eye
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/right
+          eye
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0/gums1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/jaw1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2/tongue3
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2/right
+          hand
+        weight: 1
+      - path: Rex/root/tail0
+        weight: 1
+      - path: Rex/root/tail0/tail1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe0
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe0/left
+          toe1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe2
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe2/left
+          toe3
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe4
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe4/left
+          toe5
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0/right toe1
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2/right toe3
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4/right toe5
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: rex_LOD_0
+        weight: 1
+      - path: rex_LOD_1
+        weight: 1
+      - path: rex_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Rex|Stand2C
+      takeName: Rex|Stand2C
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Rex
+        weight: 1
+      - path: Rex/root
+        weight: 1
+      - path: Rex/root/spine0
+        weight: 1
+      - path: Rex/root/spine0/spine1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2/left
+          hand
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/left
+          eye
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/right
+          eye
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0/gums1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/jaw1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2/tongue3
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2/right
+          hand
+        weight: 1
+      - path: Rex/root/tail0
+        weight: 1
+      - path: Rex/root/tail0/tail1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe0
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe0/left
+          toe1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe2
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe2/left
+          toe3
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe4
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe4/left
+          toe5
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0/right toe1
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2/right toe3
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4/right toe5
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: rex_LOD_0
+        weight: 1
+      - path: rex_LOD_1
+        weight: 1
+      - path: rex_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Rex|Stand2D
+      takeName: Rex|Stand2D
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Rex
+        weight: 1
+      - path: Rex/root
+        weight: 1
+      - path: Rex/root/spine0
+        weight: 1
+      - path: Rex/root/spine0/spine1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2/left
+          hand
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/left
+          eye
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/right
+          eye
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0/gums1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/jaw1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2/tongue3
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2/right
+          hand
+        weight: 1
+      - path: Rex/root/tail0
+        weight: 1
+      - path: Rex/root/tail0/tail1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe0
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe0/left
+          toe1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe2
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe2/left
+          toe3
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe4
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe4/left
+          toe5
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0/right toe1
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2/right toe3
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4/right toe5
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: rex_LOD_0
+        weight: 1
+      - path: rex_LOD_1
+        weight: 1
+      - path: rex_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Rex|Stand2ToSleep
+      takeName: Rex|Stand2ToSleep
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Rex
+        weight: 1
+      - path: Rex/root
+        weight: 1
+      - path: Rex/root/spine0
+        weight: 1
+      - path: Rex/root/spine0/spine1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2/left
+          hand
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/left
+          eye
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/right
+          eye
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0/gums1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/jaw1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2/tongue3
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2/right
+          hand
+        weight: 1
+      - path: Rex/root/tail0
+        weight: 1
+      - path: Rex/root/tail0/tail1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe0
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe0/left
+          toe1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe2
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe2/left
+          toe3
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe4
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe4/left
+          toe5
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0/right toe1
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2/right toe3
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4/right toe5
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: rex_LOD_0
+        weight: 1
+      - path: rex_LOD_1
+        weight: 1
+      - path: rex_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Rex|Stand2ToWalk
+      takeName: Rex|Stand2ToWalk
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Rex
+        weight: 1
+      - path: Rex/root
+        weight: 1
+      - path: Rex/root/spine0
+        weight: 1
+      - path: Rex/root/spine0/spine1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2/left
+          hand
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/left
+          eye
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/right
+          eye
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0/gums1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/jaw1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2/tongue3
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2/right
+          hand
+        weight: 1
+      - path: Rex/root/tail0
+        weight: 1
+      - path: Rex/root/tail0/tail1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe0
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe0/left
+          toe1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe2
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe2/left
+          toe3
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe4
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe4/left
+          toe5
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0/right toe1
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2/right toe3
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4/right toe5
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: rex_LOD_0
+        weight: 1
+      - path: rex_LOD_1
+        weight: 1
+      - path: rex_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Rex|Step1
+      takeName: Rex|Step1
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Rex
+        weight: 1
+      - path: Rex/root
+        weight: 1
+      - path: Rex/root/spine0
+        weight: 1
+      - path: Rex/root/spine0/spine1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2/left
+          hand
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/left
+          eye
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/right
+          eye
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0/gums1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/jaw1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2/tongue3
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2/right
+          hand
+        weight: 1
+      - path: Rex/root/tail0
+        weight: 1
+      - path: Rex/root/tail0/tail1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe0
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe0/left
+          toe1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe2
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe2/left
+          toe3
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe4
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe4/left
+          toe5
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0/right toe1
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2/right toe3
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4/right toe5
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: rex_LOD_0
+        weight: 1
+      - path: rex_LOD_1
+        weight: 1
+      - path: rex_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Rex|Step1Attack
+      takeName: Rex|Step1Attack
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Rex
+        weight: 1
+      - path: Rex/root
+        weight: 1
+      - path: Rex/root/spine0
+        weight: 1
+      - path: Rex/root/spine0/spine1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2/left
+          hand
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/left
+          eye
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/right
+          eye
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0/gums1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/jaw1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2/tongue3
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2/right
+          hand
+        weight: 1
+      - path: Rex/root/tail0
+        weight: 1
+      - path: Rex/root/tail0/tail1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe0
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe0/left
+          toe1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe2
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe2/left
+          toe3
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe4
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe4/left
+          toe5
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0/right toe1
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2/right toe3
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4/right toe5
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: rex_LOD_0
+        weight: 1
+      - path: rex_LOD_1
+        weight: 1
+      - path: rex_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Rex|Step2
+      takeName: Rex|Step2
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Rex
+        weight: 1
+      - path: Rex/root
+        weight: 1
+      - path: Rex/root/spine0
+        weight: 1
+      - path: Rex/root/spine0/spine1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2/left
+          hand
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/left
+          eye
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/right
+          eye
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0/gums1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/jaw1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2/tongue3
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2/right
+          hand
+        weight: 1
+      - path: Rex/root/tail0
+        weight: 1
+      - path: Rex/root/tail0/tail1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe0
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe0/left
+          toe1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe2
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe2/left
+          toe3
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe4
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe4/left
+          toe5
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0/right toe1
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2/right toe3
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4/right toe5
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: rex_LOD_0
+        weight: 1
+      - path: rex_LOD_1
+        weight: 1
+      - path: rex_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Rex|Step2Attack
+      takeName: Rex|Step2Attack
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Rex
+        weight: 1
+      - path: Rex/root
+        weight: 1
+      - path: Rex/root/spine0
+        weight: 1
+      - path: Rex/root/spine0/spine1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2/left
+          hand
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/left
+          eye
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/right
+          eye
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0/gums1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/jaw1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2/tongue3
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2/right
+          hand
+        weight: 1
+      - path: Rex/root/tail0
+        weight: 1
+      - path: Rex/root/tail0/tail1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe0
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe0/left
+          toe1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe2
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe2/left
+          toe3
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe4
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe4/left
+          toe5
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0/right toe1
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2/right toe3
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4/right toe5
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: rex_LOD_0
+        weight: 1
+      - path: rex_LOD_1
+        weight: 1
+      - path: rex_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Rex|Strafe1
+      takeName: Rex|Strafe1
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Rex
+        weight: 1
+      - path: Rex/root
+        weight: 1
+      - path: Rex/root/spine0
+        weight: 1
+      - path: Rex/root/spine0/spine1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2/left
+          hand
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/left
+          eye
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/right
+          eye
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0/gums1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/jaw1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2/tongue3
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2/right
+          hand
+        weight: 1
+      - path: Rex/root/tail0
+        weight: 1
+      - path: Rex/root/tail0/tail1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe0
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe0/left
+          toe1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe2
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe2/left
+          toe3
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe4
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe4/left
+          toe5
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0/right toe1
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2/right toe3
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4/right toe5
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: rex_LOD_0
+        weight: 1
+      - path: rex_LOD_1
+        weight: 1
+      - path: rex_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Rex|Strafe2
+      takeName: Rex|Strafe2
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Rex
+        weight: 1
+      - path: Rex/root
+        weight: 1
+      - path: Rex/root/spine0
+        weight: 1
+      - path: Rex/root/spine0/spine1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2/left
+          hand
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/left
+          eye
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/right
+          eye
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0/gums1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/jaw1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2/tongue3
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2/right
+          hand
+        weight: 1
+      - path: Rex/root/tail0
+        weight: 1
+      - path: Rex/root/tail0/tail1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe0
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe0/left
+          toe1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe2
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe2/left
+          toe3
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe4
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe4/left
+          toe5
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0/right toe1
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2/right toe3
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4/right toe5
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: rex_LOD_0
+        weight: 1
+      - path: rex_LOD_1
+        weight: 1
+      - path: rex_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Rex|Walk
+      takeName: Rex|Walk
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Rex
+        weight: 1
+      - path: Rex/root
+        weight: 1
+      - path: Rex/root/spine0
+        weight: 1
+      - path: Rex/root/spine0/spine1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2/left
+          hand
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/left
+          eye
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/right
+          eye
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0/gums1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/jaw1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2/tongue3
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2/right
+          hand
+        weight: 1
+      - path: Rex/root/tail0
+        weight: 1
+      - path: Rex/root/tail0/tail1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe0
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe0/left
+          toe1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe2
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe2/left
+          toe3
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe4
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe4/left
+          toe5
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0/right toe1
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2/right toe3
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4/right toe5
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: rex_LOD_0
+        weight: 1
+      - path: rex_LOD_1
+        weight: 1
+      - path: rex_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Rex|WalkAttackA
+      takeName: Rex|WalkAttackA
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Rex
+        weight: 1
+      - path: Rex/root
+        weight: 1
+      - path: Rex/root/spine0
+        weight: 1
+      - path: Rex/root/spine0/spine1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2/left
+          hand
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/left
+          eye
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/right
+          eye
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0/gums1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/jaw1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2/tongue3
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2/right
+          hand
+        weight: 1
+      - path: Rex/root/tail0
+        weight: 1
+      - path: Rex/root/tail0/tail1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe0
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe0/left
+          toe1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe2
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe2/left
+          toe3
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe4
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe4/left
+          toe5
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0/right toe1
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2/right toe3
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4/right toe5
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: rex_LOD_0
+        weight: 1
+      - path: rex_LOD_1
+        weight: 1
+      - path: rex_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Rex|WalkAttackB
+      takeName: Rex|WalkAttackB
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Rex
+        weight: 1
+      - path: Rex/root
+        weight: 1
+      - path: Rex/root/spine0
+        weight: 1
+      - path: Rex/root/spine0/spine1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2/left
+          hand
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/left
+          eye
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/right
+          eye
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0/gums1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/jaw1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2/tongue3
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2/right
+          hand
+        weight: 1
+      - path: Rex/root/tail0
+        weight: 1
+      - path: Rex/root/tail0/tail1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe0
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe0/left
+          toe1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe2
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe2/left
+          toe3
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe4
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe4/left
+          toe5
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0/right toe1
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2/right toe3
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4/right toe5
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: rex_LOD_0
+        weight: 1
+      - path: rex_LOD_1
+        weight: 1
+      - path: rex_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Rex|WalkGrowl
+      takeName: Rex|WalkGrowl
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Rex
+        weight: 1
+      - path: Rex/root
+        weight: 1
+      - path: Rex/root/spine0
+        weight: 1
+      - path: Rex/root/spine0/spine1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2/left
+          hand
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/left
+          eye
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/right
+          eye
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0/gums1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/jaw1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2/tongue3
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2/right
+          hand
+        weight: 1
+      - path: Rex/root/tail0
+        weight: 1
+      - path: Rex/root/tail0/tail1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe0
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe0/left
+          toe1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe2
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe2/left
+          toe3
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe4
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe4/left
+          toe5
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0/right toe1
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2/right toe3
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4/right toe5
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: rex_LOD_0
+        weight: 1
+      - path: rex_LOD_1
+        weight: 1
+      - path: rex_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Rex|WalkToStand2
+      takeName: Rex|WalkToStand2
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Rex
+        weight: 1
+      - path: Rex/root
+        weight: 1
+      - path: Rex/root/spine0
+        weight: 1
+      - path: Rex/root/spine0/spine1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/left arm0/left arm1/left arm2/left
+          hand
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/left
+          eye
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/eyes/right
+          eye
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/gums0/gums1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/jaw1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/neck0/neck1/neck2/head/jaw0/tongue0/tongue1/tongue2/tongue3
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2
+        weight: 1
+      - path: Rex/root/spine0/spine1/spine2/spine3/right arm0/right arm1/right arm2/right
+          hand
+        weight: 1
+      - path: Rex/root/tail0
+        weight: 1
+      - path: Rex/root/tail0/tail1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe0
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe0/left
+          toe1
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe2
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe2/left
+          toe3
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe4
+        weight: 1
+      - path: Rex/root/tail0/tail1/left hips/left leg/left foot0/left foot1/left toe4/left
+          toe5
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe0/right toe1
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe2/right toe3
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4
+        weight: 1
+      - path: Rex/root/tail0/tail1/right hips/right leg/right foot0/right foot1/right
+          toe4/right toe5
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Rex/root/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: rex_LOD_0
+        weight: 1
+      - path: rex_LOD_1
+        weight: 1
+      - path: rex_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages:
+    - 0.25
+    - 0.125
+    - 0.01
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 100
+    normalImportMode: 1
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

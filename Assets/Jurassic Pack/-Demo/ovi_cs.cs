@@ -1,0 +1,835 @@
+﻿using UnityEngine;
+
+public class ovi_cs : MonoBehaviour
+{
+	Transform Spine0,Spine1,Spine2,Spine3,Spine4,Spine5,Neck0,Neck1,Neck2,Neck3,Head,
+	Tail0,Tail1,Tail2,Tail3,Tail4,Tail5,Tail6,Tail7,Tail8,Tail9,Tail10,Tail11,Arm1,Arm2;
+	float spineYaw,spinePitch,spineRoll,balance,ang,velZ,velY,animcount;
+	public AudioClip Smallstep,Smallsplash,Swallow,Idlecarn,Bite,Ovi1,Ovi2,Ovi3,Ovi4,Ovi5,Ovi6;
+	public Texture[] skin,eyes;
+	
+	bool reset,soundplayed,onwater,isdead;
+	Animator anim;
+	AudioSource source;
+	SkinnedMeshRenderer[] rend;
+	LODGroup lods;
+	Rigidbody rg;
+	
+	[Header("---------------------------------------")]
+	public float Health=100;
+	public float scale=0.25f;
+	public skinselect BodySkin;
+	public eyesselect EyesSkin;
+	public lodselect LodLevel=lodselect.Auto;
+	[HideInInspector]public string infos;
+	public bool AI=false;
+
+	//***************************************************************************************
+	//Get components
+	void Awake ()
+	{
+		Tail0 = transform.Find ("Ovi/root/pelvis/tail0");
+		Tail1 = transform.Find ("Ovi/root/pelvis/tail0/tail1");
+		Tail2 = transform.Find ("Ovi/root/pelvis/tail0/tail1/tail2");
+		Tail3 = transform.Find ("Ovi/root/pelvis/tail0/tail1/tail2/tail3");
+		Tail4 = transform.Find ("Ovi/root/pelvis/tail0/tail1/tail2/tail3/tail4");
+		Tail5 = transform.Find ("Ovi/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5");
+		Tail6 = transform.Find ("Ovi/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5/tail6");
+		Tail7 = transform.Find ("Ovi/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7");
+		Tail8 = transform.Find ("Ovi/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8");
+		Tail9 = transform.Find ("Ovi/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8/tail9");
+		Tail10 = transform.Find ("Ovi/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8/tail9/tail10");
+		Tail11 = transform.Find ("Ovi/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8/tail9/tail10/tail11");
+		Spine0 = transform.Find ("Ovi/root/spine0");
+		Spine1 = transform.Find ("Ovi/root/spine0/spine1");
+		Spine2 = transform.Find ("Ovi/root/spine0/spine1/spine2");
+		Spine3 = transform.Find ("Ovi/root/spine0/spine1/spine2/spine3");
+		Spine4 = transform.Find ("Ovi/root/spine0/spine1/spine2/spine3/spine4");
+		Spine5 = transform.Find ("Ovi/root/spine0/spine1/spine2/spine3/spine4/spine5");
+		Arm1 = transform.Find ("Ovi/root/spine0/spine1/spine2/spine3/spine4/spine5/left arm0");
+		Arm2 = transform.Find ("Ovi/root/spine0/spine1/spine2/spine3/spine4/spine5/right arm0");
+		Neck0  = transform.Find ("Ovi/root/spine0/spine1/spine2/spine3/spine4/spine5/neck0");
+		Neck1  = transform.Find ("Ovi/root/spine0/spine1/spine2/spine3/spine4/spine5/neck0/neck1");
+		Neck2  = transform.Find ("Ovi/root/spine0/spine1/spine2/spine3/spine4/spine5/neck0/neck1/neck2");
+		Neck3  = transform.Find ("Ovi/root/spine0/spine1/spine2/spine3/spine4/spine5/neck0/neck1/neck2/neck3");
+		Head   = transform.Find ("Ovi/root/spine0/spine1/spine2/spine3/spine4/spine5/neck0/neck1/neck2/neck3/head");
+	
+		source = GetComponent<AudioSource>();
+		anim = GetComponent<Animator>();
+		lods=GetComponent<LODGroup>();
+		rend=GetComponentsInChildren<SkinnedMeshRenderer>();
+		rg=GetComponent<Rigidbody>();
+		
+		foreach (SkinnedMeshRenderer element in rend)
+		{
+			element.materials[0].mainTexture = skin[BodySkin.GetHashCode()];
+			if(element!=rend[0])element.materials[1].mainTexture = eyes[EyesSkin.GetHashCode()];
+		}
+
+		transform.localScale=new Vector3(scale,scale,scale);
+	}
+	
+	//***************************************************************************************
+	//Check collisions
+	void OnTriggerStay(Collider coll)
+	{
+		if(coll.transform.name=="Water") { anim.speed=0.75f; onwater=true; } //Is on water ?
+	}
+	void OnTriggerExit(Collider coll)
+	{
+		if(coll.transform.name=="Water") { anim.speed=1.0f; onwater=false; }
+	}
+	//***************************************************************************************
+	//Animation controller
+	void Update ()
+	{
+		if(AI) //CPU
+		{
+			
+		}
+		else //Human
+		{
+			//Moves
+			if (Input.GetKey (KeyCode.Space)) anim.SetInteger ("State", 2); //Jump
+			else if (Input.GetKey (KeyCode.LeftShift) && Input.GetKey (KeyCode.W)) anim.SetInteger ("State", 4); //Run
+			else if (Input.GetKey (KeyCode.LeftControl) && Input.GetKey (KeyCode.W)) anim.SetInteger ("State", 3); //Steps
+			else if (Input.GetKey (KeyCode.W)) anim.SetInteger ("State", 1); //Walk
+			else if (Input.GetKey (KeyCode.S)) anim.SetInteger ("State", -1); //Steps Back
+			else if (Input.GetKey (KeyCode.A)) anim.SetInteger ("State", 10); //Strafe+
+			else if (Input.GetKey (KeyCode.D))anim.SetInteger ("State", -10); //Strafe-
+			else if (Input.GetKey (KeyCode.LeftControl)) anim.SetInteger ("State", -4); //Steps Idle
+			else anim.SetInteger ("State", 0); //Idle
+			
+			//Turn
+			if(Input.GetKey(KeyCode.A)&& velZ!=0)ang = Mathf.Lerp(ang,-2.0f,0.05f);
+			else if(Input.GetKey(KeyCode.D)&& velZ!=0) ang = Mathf.Lerp(ang,2.0f,0.05f);
+			else ang = Mathf.Lerp(ang,0.0f,0.05f);
+			
+			//Attack
+			if (Input.GetKey (KeyCode.Mouse0)) anim.SetBool ("Attack", true);
+			else anim.SetBool ("Attack", false);
+			
+			//Idles
+			if (Input.GetKey (KeyCode.Alpha1)) anim.SetInteger ("Idle", 1); //Idle looking
+			else if (Input.GetKey (KeyCode.Alpha2) || Input.GetKey (KeyCode.E)) anim.SetInteger ("Idle", 2); //Idle growl
+			else if (Input.GetKey (KeyCode.Alpha3)) anim.SetInteger ("Idle", 3); //Idle bark
+			else if (Input.GetKey (KeyCode.Alpha4)) anim.SetInteger ("Idle", 4); //Idle scrabble
+			else if (Input.GetKey (KeyCode.Alpha5)) anim.SetInteger ("Idle", 5); //Eat
+			else if (Input.GetKey (KeyCode.Alpha6)) anim.SetInteger ("Idle", 6); //Drink
+			else if (Input.GetKey (KeyCode.Alpha7)) anim.SetInteger ("Idle", 7); //Sleep
+			else if (Input.GetKey (KeyCode.Alpha8)) anim.SetInteger ("Idle", -1); //Kill
+			else if(anim.GetInteger("Idle")!=100)anim.SetInteger ("Idle", 0);
+			
+			//Reset spine position
+			if (anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|SleepLoop") ||
+			    anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|Die") ||
+			    anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|StandE") ||
+			    anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|EatA") ||
+			    anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|EatB") ||
+			    anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|StandEat") ||
+			    anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|GroundAttack")) reset = true; else reset = false;
+			
+			//Spine control
+			if (Input.GetKey (KeyCode.Mouse1) && reset == false)
+			{
+				spineYaw += Input.GetAxis ("Mouse X") * 1.0F;
+				spinePitch += Input.GetAxis ("Mouse Y") * 1.0F;
+			}
+			else
+			{
+				spineYaw = Mathf.Lerp(spineYaw,0.0f,0.05f);
+				spinePitch = Mathf.Lerp(spinePitch,0.0f,0.05f);
+			}
+		}
+		
+		//***************************************************************************************
+		//Motions code
+		
+		//Walking
+		if (anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|Walk") ||
+		    anim.GetNextAnimatorStateInfo (0).IsName("Ovi|Walk") ||
+		    anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|WalkGrowl") ||
+		    anim.GetNextAnimatorStateInfo (0).IsName("Ovi|WalkGrowl") ||
+		    anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|WalkToStand") ||
+		    anim.GetNextAnimatorStateInfo (0).IsName("Ovi|RunToStand") ||
+		    anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|RunToStand") ||
+		    anim.GetNextAnimatorStateInfo (0).IsName("Ovi|WalkToStand") ||
+		    anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|StandToWalk") ||
+		    anim.GetNextAnimatorStateInfo (0).IsName("Ovi|StandToWalk"))
+		{
+			if (velZ < 0.2F) velZ = velZ + (Time.deltaTime * 0.25F); //acceleration
+			else if (velZ > 0.2F) velZ = velZ - (Time.deltaTime * 2.0F); //deceleration
+			
+			if (anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|WalkToStand")&& velZ > 0.0F)
+				velZ = velZ - (Time.deltaTime * 0.5F); //deceleration
+			
+			transform.rotation *= Quaternion.AngleAxis (ang, new Vector3 (0, 1, 0));
+			transform.Translate (0, 0, velZ*scale*anim.speed);
+		}
+		
+		//Forward steps
+		else if (anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|Steps+") ||
+		         anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|StepsGrowl+"))
+		{
+			if (anim.GetCurrentAnimatorStateInfo (0).normalizedTime > 0.25F && anim.GetCurrentAnimatorStateInfo (0).normalizedTime < 0.45F)
+				velZ = 0.0F;
+			else if (anim.GetCurrentAnimatorStateInfo (0).normalizedTime > 0.7F)
+				velZ = 0.0F;
+			else 
+			{
+				velZ = 0.1F;
+				transform.rotation *= Quaternion.AngleAxis (ang, new Vector3 (0, 1, 0));
+			}
+			
+			transform.Translate (0, 0, velZ*scale*anim.speed);
+		}
+		
+		//Backward steps
+		else if (anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|Steps-") ||
+		         anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|StepsGrowl-"))
+		{
+			if (anim.GetCurrentAnimatorStateInfo (0).normalizedTime < 0.2F)
+				velZ = 0.0F;
+			else if (anim.GetCurrentAnimatorStateInfo (0).normalizedTime > 0.5F &&
+			         anim.GetCurrentAnimatorStateInfo (0).normalizedTime < 0.75F)
+				velZ = 0.0F;
+			else
+			{
+				velZ = -0.1F;
+				transform.rotation *= Quaternion.AngleAxis (ang, new Vector3 (0, -1, 0));
+			}
+			
+			transform.Translate (0, 0, velZ*scale*anim.speed);
+		}
+		
+		//Strafe-/Turn
+		else if (anim.GetNextAnimatorStateInfo (0).IsName("Ovi|Strafe-") ||
+		         anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|Strafe-"))
+		{
+			//if (velZ < 0.075F) velZ = velZ + (Time.deltaTime * 0.5F); //acceleration
+			//else if (velZ > 0.075F) velZ = velZ - (Time.deltaTime * 0.5F); //acceleration
+			velZ=0.01f;
+			transform.rotation *= Quaternion.AngleAxis (ang, new Vector3 (0, 1, 0));
+			transform.Translate (velZ*scale*anim.speed, velY, 0);
+		}
+		
+		//Strafe+/Turn
+		else if (anim.GetNextAnimatorStateInfo (0).IsName("Ovi|Strafe+") ||
+		         anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|Strafe+"))
+		{
+			//if (velZ < 0.075F) velZ = velZ + (Time.deltaTime * 0.5F); //acceleration
+			//else if (velZ > 0.075F)velZ = velZ - (Time.deltaTime * 0.5F); //acceleration
+			velZ=0.01f;
+			transform.rotation *= Quaternion.AngleAxis (ang, new Vector3 (0, 1, 0));
+			transform.Translate (-velZ*scale*anim.speed, velY, 0);
+		}
+		
+		//Running
+		else if (anim.GetNextAnimatorStateInfo (0).IsName("Ovi|Run") ||
+		         anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|Run") ||
+		         anim.GetNextAnimatorStateInfo (0).IsName("Ovi|RunGrowl") ||
+		         anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|RunGrowl"))
+		{
+			if (velZ < 0.75F) velZ = velZ + (Time.deltaTime * 1.0F);
+			
+			transform.rotation *= Quaternion.AngleAxis (ang, new Vector3 (0, 1, 0));
+			transform.Translate (0, 0, velZ*scale*anim.speed);
+		}
+		
+		//Running attack
+		else if (anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|RunAttackB") ||
+		         anim.GetNextAnimatorStateInfo (0).IsName("Ovi|RunAttackB"))
+		{
+			if (velZ < 0.5F) velZ = velZ + (Time.deltaTime * 1.0F);
+			
+			transform.rotation *= Quaternion.AngleAxis (ang, new Vector3 (0, 1, 0));
+			transform.Translate (0, 0, velZ*scale*anim.speed);
+		}
+		
+		//Jump Attack
+		else if (anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|JumpAttack") ||
+		         anim.GetNextAnimatorStateInfo (0).IsName("Ovi|JumpAttack") ||
+		         anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|RunAttackA") ||
+		         anim.GetNextAnimatorStateInfo (0).IsName("Ovi|RunAttackA") ||
+		         anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|OnDinoStand") ||
+		         anim.GetNextAnimatorStateInfo (0).IsName("Ovi|OnDinoStand") ||
+		         anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|OnDinoAttack") ||
+		         anim.GetNextAnimatorStateInfo (0).IsName("Ovi|OnDinoAttack"))
+		{
+			
+			if (anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|RunAttackA")) 
+			{
+				if(anim.GetCurrentAnimatorStateInfo (0).normalizedTime > 0.8) velZ = 0.0F;
+				else if (velZ < 0.75F) velZ = velZ + (Time.deltaTime * 1.0F);
+				
+				transform.rotation *= Quaternion.AngleAxis (ang, new Vector3 (0, 1, 0));
+				transform.Translate (0, 0, velZ*scale*anim.speed);
+			}
+			else if (anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|JumpAttack"))
+			{
+				if(anim.GetCurrentAnimatorStateInfo (0).normalizedTime > 0.4 && anim.GetCurrentAnimatorStateInfo (0).normalizedTime < 0.9) velZ = velZ + (Time.deltaTime * 1.0F);
+				else velZ = 0.0F;
+				
+				transform.rotation *= Quaternion.AngleAxis (ang, new Vector3 (0, 1, 0));
+				transform.Translate (0, 0, velZ*scale*anim.speed);
+			}
+		}
+		
+		//Stand jump up
+		else if (anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|StandJumpUp") ||
+		         anim.GetNextAnimatorStateInfo (0).IsName("Ovi|StandJumpUp"))
+		{
+			velZ=Mathf.Lerp(velZ,0.0f,0.01f);
+			
+			if(anim.GetInteger("State")==1 && velZ < 0.5f)
+				velZ = velZ + (Time.deltaTime * 2.5F);
+			if(anim.GetInteger("State")==-1 && velZ > 0.5f)
+				velZ = velZ - (Time.deltaTime * 2.0F);
+			
+			if (anim.GetCurrentAnimatorStateInfo (0).normalizedTime > 0.5 && velY<=0.5f)
+				velY = velY + (Time.deltaTime * 10.0F);
+			
+			transform.Translate (0, velY*scale, velZ*scale);
+		}
+		
+		//Running jump up
+		else if (anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|RunJumpUp") ||
+		         anim.GetNextAnimatorStateInfo (0).IsName("Ovi|RunJumpUp"))
+		{
+			if(anim.GetInteger("State")==1 && velZ < 0.75f)
+				velZ = velZ + (Time.deltaTime * 2.5F);
+			if(anim.GetInteger("State")==-1 && velZ > 0.0f)
+				velZ = velZ - (Time.deltaTime * 2.5F);
+			
+			if (anim.GetCurrentAnimatorStateInfo (0).normalizedTime > 0.5 && velY<=0.5f)
+				velY = velY + (Time.deltaTime * 10.0F);
+			
+			transform.rotation *= Quaternion.AngleAxis (ang, new Vector3 (0, 1, 0));
+			transform.Translate (0, velY*scale, velZ*scale*anim.speed);
+		}
+		
+		//Jump loop
+		else if (anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|JumpLoop") ||
+		         anim.GetNextAnimatorStateInfo (0).IsName("Ovi|JumpLoop")  ||
+		         anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|JumpLoopAttack") ||
+		         anim.GetNextAnimatorStateInfo (0).IsName("Ovi|JumpLoopAttack"))
+		{
+			velY=Mathf.Lerp(velY,-2.0f,0.025f);
+			
+			if(anim.GetInteger("State")==1 && velZ < 0.75f)
+				velZ = velZ + (Time.deltaTime * 2.5F);
+			if(anim.GetInteger("State")==-1 && velZ > 0.0f)
+				velZ = velZ - (Time.deltaTime * 2.5F);
+			
+			transform.rotation *= Quaternion.AngleAxis (ang, new Vector3 (0, 1, 0));
+			transform.Translate (0, velY*scale, velZ*scale*anim.speed);
+		}
+		
+		//Jump landing
+		else if (anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|StandJumpDown") ||
+		         anim.GetNextAnimatorStateInfo (0).IsName("Ovi|StandJumpDown") ||
+		         anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|RunJumpDown") ||
+		         anim.GetNextAnimatorStateInfo (0).IsName("Ovi|RunJumpDown"))
+		{
+			velY=0;
+			
+			if (velZ < 0.75F &&
+			    anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|RunJumpDown") ||
+			    anim.GetNextAnimatorStateInfo (0).IsName("Ovi|RunJumpDown"))
+				velZ = velZ + (Time.deltaTime * 5.0F);
+			else velZ = 0.0F;
+			
+			transform.rotation *= Quaternion.AngleAxis (ang, new Vector3 (0, 1, 0));
+			transform.Translate (0, velY, velZ*scale*anim.speed);
+		}
+		
+		//Stop
+		else if (anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|StandA") ||
+		         anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|StepsStand"))
+		{
+			velZ = 0.0F;
+			transform.Translate (0, 0, 0);
+		}
+		
+		
+		//***************************************************************************************
+		//Sound Fx code
+		
+		//Get current animation point
+		animcount = (anim.GetCurrentAnimatorStateInfo (0).normalizedTime) % 1.0F;
+		if(anim.GetAnimatorTransitionInfo(0).normalizedTime!=0.0F) animcount=0.0F;
+		animcount = Mathf.Round(animcount * 30);
+		
+		if (anim.GetNextAnimatorStateInfo (0).IsName("Ovi|StandB") ||
+		    anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|StandB"))
+		{
+			if(soundplayed==false && animcount==15)
+			{
+				source.pitch=Random.Range(1.1F, 1.25F);
+				source.PlayOneShot(Idlecarn,0.1F);
+				soundplayed=true;
+			}
+			else if(animcount!=15) soundplayed=false;
+		}
+		
+		else if (anim.GetNextAnimatorStateInfo (0).IsName("Ovi|StandC") ||
+		         anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|StandC"))
+		{
+			if(soundplayed==false && animcount==2)
+			{
+				source.pitch=Random.Range(0.9F, 1.1F);
+				source.PlayOneShot(Ovi6,0.75F);
+				soundplayed=true;
+			}
+			else if(animcount!=2) soundplayed=false;
+		}
+		
+		else if (anim.GetNextAnimatorStateInfo (0).IsName("Ovi|StandD") ||
+		         anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|StandD"))
+		{
+			if(soundplayed==false &&(animcount==1 || animcount==8 || animcount==16))
+			{
+				source.pitch=Random.Range(0.9F, 1.1F);
+				source.PlayOneShot(Ovi4,0.75F);
+				soundplayed=true;
+			}
+			else if(animcount!=1 && animcount!=8 && animcount!=16) soundplayed=false;
+		}
+		
+		else if (anim.GetNextAnimatorStateInfo (0).IsName("Ovi|StandE") ||
+		         anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|StandE"))
+		{
+			if(soundplayed==false &&(animcount==6 || animcount==12 || animcount==18))
+			{
+				source.pitch=Random.Range(0.9F, 1.1F);
+				source.PlayOneShot(Bite,0.25F);
+				soundplayed=true;
+			}
+			else if(animcount!=6 && animcount!=12 && animcount!=18) soundplayed=false;
+		}
+		
+		else if (anim.GetNextAnimatorStateInfo (0).IsName("Ovi|EatA") ||
+		         anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|EatA"))
+		{
+			if(soundplayed==false && animcount==16)
+			{
+				source.pitch=Random.Range(1.0F, 1.5F);
+				source.PlayOneShot(Bite,0.75F);
+				soundplayed=true;
+			}
+			else if(animcount!=16) soundplayed=false;
+		}
+		
+		else if (anim.GetNextAnimatorStateInfo (0).IsName("Ovi|StandEat") ||
+		         anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|StandEat"))
+		{
+			if(soundplayed==false && animcount==3)
+			{
+				source.pitch=Random.Range(2.0F, 2.5F);
+				source.PlayOneShot(Swallow,0.5F);
+				soundplayed=true;
+			}
+			else if(animcount!=3) soundplayed=false;
+		}
+		
+		else if (anim.GetNextAnimatorStateInfo (0).IsName("Ovi|AttackA") ||
+		         anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|AttackA")||
+		         anim.GetNextAnimatorStateInfo (0).IsName("Ovi|AttackB") ||
+		         anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|AttackB"))
+		{
+			if(soundplayed==false &&(animcount==2))
+			{
+				source.pitch=Random.Range(1.0F, 1.25F);
+				source.PlayOneShot(Ovi1,0.75F);
+				soundplayed=true;
+			}
+			else if(soundplayed==false &&(animcount==12))
+			{
+				source.pitch=Random.Range(1.0F, 1.25F);
+				source.PlayOneShot(Bite,0.75F);
+				soundplayed=true;
+			}
+			else if(animcount!=2 && animcount!=12) soundplayed=false;
+		}
+		
+		else if (anim.GetNextAnimatorStateInfo (0).IsName("Ovi|RunAttackA") ||
+		         anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|RunAttackA"))
+		{
+			if(soundplayed==false &&(animcount==2))
+			{
+				source.pitch=Random.Range(1.0F, 1.25F);
+				source.PlayOneShot(Ovi2,0.75F);
+				soundplayed=true;
+			}
+			else if(soundplayed==false &&(animcount==15))
+			{
+				source.pitch=Random.Range(1.0F, 1.25F);
+				source.PlayOneShot(Bite,0.75F);
+				soundplayed=true;
+			}
+			else if(animcount!=2 && animcount!=15) soundplayed=false;
+		}
+		
+		else if (anim.GetNextAnimatorStateInfo (0).IsName("Ovi|RunAttackB") ||
+		         anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|RunAttackB"))
+		{
+			if(soundplayed==false &&(animcount==3))
+			{
+				source.pitch=Random.Range(1.0F, 1.25F);
+				source.PlayOneShot(Ovi1,0.75F);
+				soundplayed=true;
+			}
+			else if(soundplayed==false &&(animcount==15))
+			{
+				source.pitch=Random.Range(1.0F, 1.25F);
+				source.PlayOneShot(Bite,0.75F);
+				soundplayed=true;
+			}
+			else if(animcount!=3 && animcount!=15) soundplayed=false;
+		}
+
+		else if (anim.GetNextAnimatorStateInfo (0).IsName("Ovi|JumpLoop") ||
+		         anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|JumpLoop"))
+		{
+			if(soundplayed==false && (animcount==0||animcount==10||animcount==20) )
+			{
+				source.pitch=Random.Range(1.0F, 1.25F);
+				source.PlayOneShot(Bite,0.5F);
+				soundplayed=true;
+			}
+			else if(animcount!=0 && animcount!=10 && animcount!=20) soundplayed=false;
+		}
+
+		else if (anim.GetNextAnimatorStateInfo (0).IsName("Ovi|JumpLoopAttack") ||
+		         anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|JumpLoopAttack"))
+		{
+			if(soundplayed==false &&(animcount==15))
+			{
+				source.pitch=Random.Range(1.0F, 1.25F);
+				source.PlayOneShot(Bite,0.5F);
+				soundplayed=true;
+			}
+			else if(animcount!=15) soundplayed=false;
+		}
+		
+		else if (anim.GetNextAnimatorStateInfo (0).IsName("Ovi|JumpAttack") ||
+		         anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|JumpAttack"))
+		{
+			if(soundplayed==false &&(animcount==3))
+			{
+				source.pitch=Random.Range(1.0F, 1.25F);
+				source.PlayOneShot(Ovi3,0.75F);
+				soundplayed=true;
+			}
+			else if(animcount!=3) soundplayed=false;
+		}
+		
+		else if (anim.GetNextAnimatorStateInfo (0).IsName("Ovi|OnDinoAttack") ||
+		         anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|OnDinoAttack") ||
+		         anim.GetNextAnimatorStateInfo (0).IsName("Ovi|GroundAttack") ||
+		         anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|GroundAttack"))
+		{
+			if(soundplayed==false &&(animcount==3))
+			{
+				source.pitch=Random.Range(1.0F, 1.25F);
+				source.PlayOneShot(Ovi1,0.75F);
+				soundplayed=true;
+			}
+			else if(soundplayed==false &&(animcount==5))
+			{
+				source.pitch=Random.Range(1.0F, 1.25F);
+				source.PlayOneShot(Bite,0.75F);
+				soundplayed=true;
+			}
+			else if(animcount!=3 && animcount!=5) soundplayed=false;
+			
+		}
+		
+		else if (anim.GetNextAnimatorStateInfo (0).IsName("Ovi|Walk") ||
+		         anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|Walk") ||
+		         anim.GetNextAnimatorStateInfo (0).IsName("Ovi|WalkGrowl") ||
+		         anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|WalkGrowl"))
+		{
+			
+			if(soundplayed==false && animcount==2 && (
+				anim.GetNextAnimatorStateInfo (0).IsName("Ovi|WalkGrowl") ||
+				anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|WalkGrowl")))
+			{
+				source.pitch=Random.Range(1.0F, 1.25F);
+				source.PlayOneShot(Ovi6,0.75F);
+				soundplayed=true;
+			}
+			
+			
+			if(soundplayed==false && (animcount==10 || animcount==25))
+			{
+				source.pitch=Random.Range(1.1F, 1.25F);
+				source.PlayOneShot(onwater?Smallsplash:Smallstep,0.25F);
+				soundplayed=true;
+			}
+			else if(animcount!=2 && animcount!=10 && animcount!=25) soundplayed=false;
+		}
+		
+		else if (anim.GetNextAnimatorStateInfo (0).IsName("Ovi|WalkToStand") ||
+		         anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|WalkToStand") ||
+		         anim.GetNextAnimatorStateInfo (0).IsName("Ovi|StandToWalk") ||
+		         anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|StandToWalk") ||
+		         anim.GetNextAnimatorStateInfo (0).IsName("Ovi|RunToStand") ||
+		         anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|RunToStand"))
+		{
+			if(soundplayed==false && (animcount==15 || animcount==25))
+			{
+				source.pitch=Random.Range(1.1F, 1.25F);
+				source.PlayOneShot(onwater?Smallsplash:Smallstep,0.25F);
+				soundplayed=true;
+			}
+			else if(animcount!=15 && animcount!=25) soundplayed=false;
+			
+		}
+		
+		else if ( anim.GetNextAnimatorStateInfo (0).IsName("Ovi|Steps-") ||
+		         anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|Steps-"))
+		{
+			if(soundplayed==false && (animcount==12 || animcount==26))
+			{
+				source.pitch=Random.Range(1.1F, 1.25F);
+				source.PlayOneShot(onwater?Smallsplash:Smallstep,0.1F);
+				soundplayed=true;
+			}
+			else if(animcount!=12 && animcount!=26) soundplayed=false;
+			
+		}
+		
+		else if ( anim.GetNextAnimatorStateInfo (0).IsName("Ovi|Steps+") ||
+		         anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|Steps+"))
+		{
+			if(soundplayed==false && (animcount==5 || animcount==20))
+			{
+				source.pitch=Random.Range(1.1F, 1.25F);
+				source.PlayOneShot(onwater?Smallsplash:Smallstep,0.1F);
+				soundplayed=true;
+			}
+			else if(animcount!=2 && animcount!=5 && animcount!=20) soundplayed=false;
+			
+		}
+		
+		else if ( anim.GetNextAnimatorStateInfo (0).IsName("Ovi|Strafe-") ||
+		         anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|Strafe-") ||
+		         anim.GetNextAnimatorStateInfo (0).IsName("Ovi|Strafe+") ||
+		         anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|Strafe+"))
+		{
+			if(soundplayed==false && (animcount==12 || animcount==26))
+			{
+				source.pitch=Random.Range(1.1F, 1.25F);
+				source.PlayOneShot(onwater?Smallsplash:Smallstep,0.25F);
+				soundplayed=true;
+			}
+			else if(animcount!=12 && animcount!=26) soundplayed=false;
+			
+		}
+		
+		else if (anim.GetNextAnimatorStateInfo (0).IsName("Ovi|StepsGrowl+") ||
+		         anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|StepsGrowl+") ||
+		         anim.GetNextAnimatorStateInfo (0).IsName("Ovi|StepsGrowl-") ||
+		         anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|StepsGrowl-"))
+		{
+			if(soundplayed==false && animcount==4)
+			{
+				source.pitch=Random.Range(1.0F, 1.25F);
+				source.PlayOneShot(Ovi5,0.75F);
+				soundplayed=true;
+			}
+			else if(animcount!=4) soundplayed=false;
+			
+		}
+		
+		else if (anim.GetNextAnimatorStateInfo (0).IsName("Ovi|Run") ||
+		         anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|Run") ||
+		         anim.GetNextAnimatorStateInfo (0).IsName("Ovi|RunGrowl") ||
+		         anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|RunGrowl"))
+		{
+			
+			if(soundplayed==false && animcount==2 && (
+				anim.GetNextAnimatorStateInfo (0).IsName("Ovi|RunGrowl") ||
+				anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|RunGrowl")))
+			{
+				source.pitch=Random.Range(1.0F, 1.25F);
+				source.PlayOneShot(Ovi6,0.75F);
+				soundplayed=true;
+			} 
+			
+			if(soundplayed==false && (animcount==10 || animcount==25))
+			{
+				source.pitch=Random.Range(1.1F, 1.25F);
+				source.PlayOneShot(onwater?Smallsplash:Smallstep,0.5F);
+				soundplayed=true;
+			}
+			else if(animcount!=2 && animcount!=10 && animcount!=25) soundplayed=false;
+		}
+		
+		else if (anim.GetNextAnimatorStateInfo (0).IsName("Ovi|StandJumpUp") ||
+		         anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|StandJumpUp") ||
+		         anim.GetNextAnimatorStateInfo (0).IsName("Ovi|RunJumpUp") ||
+		         anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|RunJumpUp"))
+		{
+			if(soundplayed==false && animcount==4)
+			{
+				source.pitch=Random.Range(1.5F, 2.0F);
+				source.PlayOneShot(Ovi3,0.5F);
+				soundplayed=true;
+			}
+			else if(animcount!=4 ) soundplayed=false;
+			
+		}
+		
+		else if (anim.GetNextAnimatorStateInfo (0).IsName("Ovi|StandJumpDown") ||
+		         anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|StandJumpDown") ||
+		         anim.GetNextAnimatorStateInfo (0).IsName("Ovi|RunJumpDown") ||
+		         anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|RunJumpDown"))
+		{
+			if(soundplayed==false && animcount==4)
+			{
+				source.pitch=Random.Range(0.75F, 1.0F);
+				source.PlayOneShot(onwater?Smallsplash:Smallstep,0.75F);
+				soundplayed=true;
+			}
+			else if(animcount!=4 ) soundplayed=false;
+			
+		}
+		
+		else if (!isdead && ( anim.GetNextAnimatorStateInfo (0).IsName("Ovi|Die") ||
+		                     anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|Die")))
+		{
+			if(soundplayed==false && animcount==4)
+			{
+				source.pitch=Random.Range(0.75F, 1.0F);
+				source.PlayOneShot(Ovi6,0.75F);
+				soundplayed=true;
+			}
+			if(soundplayed==false && animcount==20)
+			{
+				source.PlayOneShot(onwater?Smallsplash:Smallstep,0.75F);
+				soundplayed=true;
+			}
+			else if(animcount!=4 && animcount!=20  ) soundplayed=false;
+			
+			if(animcount>20) isdead=true;
+		}
+		
+		else if (anim.GetNextAnimatorStateInfo (0).IsName("Ovi|Rise") ||
+		         anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|Rise"))
+		{
+			isdead=false;
+			
+			if(soundplayed==false && animcount==1)
+			{
+				source.pitch=Random.Range(1.0F, 1.25F);
+				source.PlayOneShot(Ovi2,0.75F);
+				soundplayed=true;
+			}
+			
+			else if(animcount!=1) soundplayed=false;
+		}
+		
+	}
+	//***************************************************************************************
+	//Additionals bone rotations
+	void LateUpdate()
+	{
+		spineYaw = Mathf.Clamp (spineYaw, -16.0F, 16.0F);
+		spinePitch = Mathf.Clamp (spinePitch, -9.0F, 9.0F);
+
+		balance = Mathf.Lerp(balance,-ang*4,0.05f);
+		spineRoll = spineYaw*spinePitch/24;
+
+		//Spine/neck/head rotations
+		Spine0.transform.rotation *= Quaternion.Euler(-spinePitch, spineRoll, -spineYaw+balance);
+		Spine1.transform.rotation *= Quaternion.Euler(-spinePitch, spineRoll, -spineYaw+balance);
+		Spine2.transform.rotation *= Quaternion.Euler(-spinePitch, spineRoll, -spineYaw+balance);
+		Spine3.transform.rotation *= Quaternion.Euler(-spinePitch, spineRoll, -spineYaw+balance);
+		Spine4.transform.rotation *= Quaternion.Euler(-spinePitch, spineRoll, -spineYaw+balance);
+		Spine5.transform.rotation *= Quaternion.Euler(-spinePitch, spineRoll, -spineYaw+balance);
+		
+		Neck0.transform.rotation *= Quaternion.Euler(-spinePitch, spineRoll, -spineYaw+balance);
+		Neck1.transform.rotation *= Quaternion.Euler(-spinePitch, spineRoll, -spineYaw+balance);
+		Neck2.transform.rotation *= Quaternion.Euler(-spinePitch, spineRoll, -spineYaw+balance);
+		Neck3.transform.rotation *= Quaternion.Euler(-spinePitch, spineRoll, -spineYaw+balance);
+		Head.transform.rotation *= Quaternion.Euler(-spinePitch, spineRoll, -spineYaw+balance);
+		
+		//Tail rotations
+		Tail0.transform.rotation *= Quaternion.Euler(0, 0, -balance);
+		Tail1.transform.rotation *= Quaternion.Euler(0, 0, -balance);
+		Tail2.transform.rotation *= Quaternion.Euler(0, 0, -balance);
+		Tail3.transform.rotation *= Quaternion.Euler(0, 0, -balance);
+		Tail4.transform.rotation *= Quaternion.Euler(0, 0, -balance);
+		Tail5.transform.rotation *= Quaternion.Euler(0, 0, -balance);
+		Tail6.transform.rotation *= Quaternion.Euler(0, 0, -balance);
+		Tail7.transform.rotation *= Quaternion.Euler(0, 0, -balance);
+		Tail8.transform.rotation *= Quaternion.Euler(0, 0, -balance);
+		Tail9.transform.rotation *= Quaternion.Euler(0, 0, -balance);
+		Tail10.transform.rotation *= Quaternion.Euler(0, 0, -balance);
+		Tail11.transform.rotation *= Quaternion.Euler(0, 0, -balance);
+		
+		//Arms balance
+		Arm1.transform.rotation *= Quaternion.Euler(spinePitch*8, 0, 0);
+		Arm2.transform.rotation *= Quaternion.Euler(0, spinePitch*8, 0);
+
+		//Disable collision and freeze position
+		if (anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|SleepLoop")||
+		    anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|Sleep+")||
+		    anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|Sleep-")||
+		    anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|Die")) rg.isKinematic=true; else rg.isKinematic=false;
+		rg.velocity=Vector3.zero; rg.freezeRotation=true;
+
+		//Stick and slip on terrain
+		RaycastHit hit; int terrainlayer=1<<8; //terrain layer only
+		if (anim.GetInteger("Idle")!=100 && Physics.Raycast(transform.position+transform.up, -transform.up, out hit, Mathf.Infinity,terrainlayer))
+		{
+			//jump, disable stick to the terrain
+			if(!anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|StandJumpUp")&&
+			   !anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|RunJumpUp")&&
+			   !anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|JumpLoop")&&
+			   !anim.GetCurrentAnimatorStateInfo (0).IsName("Ovi|JumpLoopAttack"))
+				transform.position=new Vector3(transform.position.x,Mathf.Lerp(transform.position.y,hit.point.y,0.1f),transform.position.z);
+			
+			//is on ground ?
+			if(Mathf.Round(transform.position.y*10-hit.point.y*10)<=0)
+			{
+				anim.SetBool("Onground",true); 
+				transform.rotation=Quaternion.Lerp(transform.rotation,Quaternion.LookRotation(Vector3.Cross(transform.right, hit.normal), hit.normal), 0.1f);
+			}
+			else
+			{
+				anim.SetBool("Onground",false);
+				transform.rotation=Quaternion.Lerp(transform.rotation ,Quaternion.Euler(0,transform.eulerAngles.y,0), 0.1f);
+			}
+			
+			//slip on sloped terrain and avoid
+			float xs=0,zs=0;
+			if(Mathf.DeltaAngle(transform.eulerAngles.x,0.0f)>25.0f||Mathf.DeltaAngle(transform.eulerAngles.x,0.0f)<-25.0f||
+			   Mathf.DeltaAngle(transform.eulerAngles.z,0.0f)>25.0f||Mathf.DeltaAngle(transform.eulerAngles.z,0.0f)<-25.0f)
+			{
+				xs=xs+(Time.deltaTime * -(Mathf.DeltaAngle(transform.eulerAngles.x,0.0f)/5));
+				zs=zs+(Time.deltaTime * (Mathf.DeltaAngle(transform.eulerAngles.z,0.0f)/5));
+				if(zs>0)ang = Mathf.Lerp(ang,2.0f,0.5f); else ang = Mathf.Lerp(ang,-2.0f,0.5f);
+				transform.Translate(zs ,0,xs);
+			}
+		}
+
+		//In game switch skin and lod
+		foreach (SkinnedMeshRenderer element in rend)
+		{
+			if(element.isVisible) infos = element.sharedMesh.triangles.Length/3+" triangles";
+			element.materials[0].mainTexture = skin[BodySkin.GetHashCode()];
+			if(element!=rend[0])element.materials[1].mainTexture = eyes[EyesSkin.GetHashCode()];
+			lods.ForceLOD(LodLevel.GetHashCode());
+		}
+		
+		//Rescale model
+		transform.localScale=new Vector3(scale,scale,scale);
+		//Mass based on scale
+		rg.mass = 4.0f/0.5f*scale;
+	}
+
+}
+

@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 1e752b4203cd840c7b7d1287edd93ec8
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 70
+  forceTextureCase: 0
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Clearface Gothic T.
+  fontNames:
+  - Clearface Gothic T.
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: d3a2461eaeb7242c9882a318637ff1c1, type: 3}
+  customCharacters: 
+  fontRenderingMode: 3
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

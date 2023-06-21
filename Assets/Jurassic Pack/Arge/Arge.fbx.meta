@@ -1,0 +1,2978 @@
+fileFormatVersion: 2
+guid: 57f518c2a6dc87a40940ef965b2c8459
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Arge
+    100002: //RootNode
+    100004: arge_LOD_0
+    100006: arge_LOD_1
+    100008: arge_LOD_2
+    100010: eyes
+    100012: head
+    100014: jaw0
+    100016: jaw1
+    100018: left arm0
+    100020: left arm1
+    100022: left eye
+    100024: left finger1
+    100026: left fingers0
+    100028: left foot
+    100030: left hand
+    100032: left hips
+    100034: left leg
+    100036: left toes0
+    100038: left toes1
+    100040: neck0
+    100042: neck1
+    100044: neck10
+    100046: neck11
+    100048: neck12
+    100050: neck13
+    100052: neck14
+    100054: neck15
+    100056: neck16
+    100058: neck2
+    100060: neck3
+    100062: neck4
+    100064: neck5
+    100066: neck6
+    100068: neck7
+    100070: neck8
+    100072: neck9
+    100074: pelvis
+    100076: right arm0
+    100078: right arm1
+    100080: right eye
+    100082: right fingers0
+    100084: right fingers1
+    100086: right foot
+    100088: right hand
+    100090: right hips
+    100092: right leg
+    100094: right toes0
+    100096: right toes1
+    100098: root
+    100100: spine0
+    100102: spine1
+    100104: spine2
+    100106: spine3
+    100108: spine4
+    100110: tail0
+    100112: tail1
+    100114: tail2
+    100116: tail3
+    100118: tail4
+    100120: tail5
+    100122: tail6
+    100124: tail7
+    100126: tail8
+    100128: tongue0
+    100130: tongue1
+    100132: tongue2
+    400000: Arge
+    400002: //RootNode
+    400004: arge_LOD_0
+    400006: arge_LOD_1
+    400008: arge_LOD_2
+    400010: eyes
+    400012: head
+    400014: jaw0
+    400016: jaw1
+    400018: left arm0
+    400020: left arm1
+    400022: left eye
+    400024: left finger1
+    400026: left fingers0
+    400028: left foot
+    400030: left hand
+    400032: left hips
+    400034: left leg
+    400036: left toes0
+    400038: left toes1
+    400040: neck0
+    400042: neck1
+    400044: neck10
+    400046: neck11
+    400048: neck12
+    400050: neck13
+    400052: neck14
+    400054: neck15
+    400056: neck16
+    400058: neck2
+    400060: neck3
+    400062: neck4
+    400064: neck5
+    400066: neck6
+    400068: neck7
+    400070: neck8
+    400072: neck9
+    400074: pelvis
+    400076: right arm0
+    400078: right arm1
+    400080: right eye
+    400082: right fingers0
+    400084: right fingers1
+    400086: right foot
+    400088: right hand
+    400090: right hips
+    400092: right leg
+    400094: right toes0
+    400096: right toes1
+    400098: root
+    400100: spine0
+    400102: spine1
+    400104: spine2
+    400106: spine3
+    400108: spine4
+    400110: tail0
+    400112: tail1
+    400114: tail2
+    400116: tail3
+    400118: tail4
+    400120: tail5
+    400122: tail6
+    400124: tail7
+    400126: tail8
+    400128: tongue0
+    400130: tongue1
+    400132: tongue2
+    4300000: arge_LOD_2
+    4300002: arge_LOD_0
+    4300004: arge_LOD_1
+    7400000: Arge|Die
+    7400002: Arge|EatA
+    7400004: Arge|EatB
+    7400006: Arge|EatC
+    7400008: Arge|Rise
+    7400010: Arge|RiseGrowl
+    7400012: Arge|RiseStand
+    7400014: Arge|SitA
+    7400016: Arge|SitB
+    7400018: Arge|Sitting
+    7400020: Arge|Sleep
+    7400022: Arge|StandA
+    7400024: Arge|StandB
+    7400026: Arge|Strafe
+    7400028: Arge|Walk
+    7400030: Arge|WalkGrowl
+    9500000: //RootNode
+    13700000: arge_LOD_0
+    13700002: arge_LOD_1
+    13700004: arge_LOD_2
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: arge
+    second: {fileID: 2100000, guid: ecf38bae9625a194da125122be88ddd8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: eyes
+    second: {fileID: 2100000, guid: 1e5f50106a76150429070591d96453df, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Arge|Die
+      takeName: Arge|Die
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arge
+        weight: 1
+      - path: Arge/root
+        weight: 1
+      - path: Arge/root/pelvis
+        weight: 1
+      - path: Arge/root/pelvis/left hips
+        weight: 1
+      - path: Arge/root/pelvis/left hips/left leg
+        weight: 1
+      - path: Arge/root/pelvis/left hips/left leg/left foot
+        weight: 1
+      - path: Arge/root/pelvis/left hips/left leg/left foot/left toes0
+        weight: 1
+      - path: Arge/root/pelvis/left hips/left leg/left foot/left toes0/left toes1
+        weight: 1
+      - path: Arge/root/pelvis/right hips
+        weight: 1
+      - path: Arge/root/pelvis/right hips/right leg
+        weight: 1
+      - path: Arge/root/pelvis/right hips/right leg/right foot
+        weight: 1
+      - path: Arge/root/pelvis/right hips/right leg/right foot/right toes0
+        weight: 1
+      - path: Arge/root/pelvis/right hips/right leg/right foot/right toes0/right toes1
+        weight: 1
+      - path: Arge/root/pelvis/tail0
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: Arge/root/spine0
+        weight: 1
+      - path: Arge/root/spine0/spine1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0/left arm1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0/left arm1/left
+          hand
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0/left arm1/left
+          hand/left fingers0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0/left arm1/left
+          hand/left fingers0/left finger1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/eyes
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/eyes/left
+          eye
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/eyes/right
+          eye
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0/jaw1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0/tongue0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0/right arm1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0/right arm1/right
+          hand
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0/right arm1/right
+          hand/right fingers0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0/right arm1/right
+          hand/right fingers0/right fingers1
+        weight: 1
+      - path: arge_LOD_0
+        weight: 1
+      - path: arge_LOD_1
+        weight: 1
+      - path: arge_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Arge|EatA
+      takeName: Arge|EatA
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arge
+        weight: 1
+      - path: Arge/root
+        weight: 1
+      - path: Arge/root/pelvis
+        weight: 1
+      - path: Arge/root/pelvis/left hips
+        weight: 1
+      - path: Arge/root/pelvis/left hips/left leg
+        weight: 1
+      - path: Arge/root/pelvis/left hips/left leg/left foot
+        weight: 1
+      - path: Arge/root/pelvis/left hips/left leg/left foot/left toes0
+        weight: 1
+      - path: Arge/root/pelvis/left hips/left leg/left foot/left toes0/left toes1
+        weight: 1
+      - path: Arge/root/pelvis/right hips
+        weight: 1
+      - path: Arge/root/pelvis/right hips/right leg
+        weight: 1
+      - path: Arge/root/pelvis/right hips/right leg/right foot
+        weight: 1
+      - path: Arge/root/pelvis/right hips/right leg/right foot/right toes0
+        weight: 1
+      - path: Arge/root/pelvis/right hips/right leg/right foot/right toes0/right toes1
+        weight: 1
+      - path: Arge/root/pelvis/tail0
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: Arge/root/spine0
+        weight: 1
+      - path: Arge/root/spine0/spine1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0/left arm1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0/left arm1/left
+          hand
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0/left arm1/left
+          hand/left fingers0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0/left arm1/left
+          hand/left fingers0/left finger1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/eyes
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/eyes/left
+          eye
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/eyes/right
+          eye
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0/jaw1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0/tongue0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0/right arm1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0/right arm1/right
+          hand
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0/right arm1/right
+          hand/right fingers0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0/right arm1/right
+          hand/right fingers0/right fingers1
+        weight: 1
+      - path: arge_LOD_0
+        weight: 1
+      - path: arge_LOD_1
+        weight: 1
+      - path: arge_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Arge|EatB
+      takeName: Arge|EatB
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arge
+        weight: 1
+      - path: Arge/root
+        weight: 1
+      - path: Arge/root/pelvis
+        weight: 1
+      - path: Arge/root/pelvis/left hips
+        weight: 1
+      - path: Arge/root/pelvis/left hips/left leg
+        weight: 1
+      - path: Arge/root/pelvis/left hips/left leg/left foot
+        weight: 1
+      - path: Arge/root/pelvis/left hips/left leg/left foot/left toes0
+        weight: 1
+      - path: Arge/root/pelvis/left hips/left leg/left foot/left toes0/left toes1
+        weight: 1
+      - path: Arge/root/pelvis/right hips
+        weight: 1
+      - path: Arge/root/pelvis/right hips/right leg
+        weight: 1
+      - path: Arge/root/pelvis/right hips/right leg/right foot
+        weight: 1
+      - path: Arge/root/pelvis/right hips/right leg/right foot/right toes0
+        weight: 1
+      - path: Arge/root/pelvis/right hips/right leg/right foot/right toes0/right toes1
+        weight: 1
+      - path: Arge/root/pelvis/tail0
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: Arge/root/spine0
+        weight: 1
+      - path: Arge/root/spine0/spine1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0/left arm1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0/left arm1/left
+          hand
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0/left arm1/left
+          hand/left fingers0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0/left arm1/left
+          hand/left fingers0/left finger1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/eyes
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/eyes/left
+          eye
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/eyes/right
+          eye
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0/jaw1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0/tongue0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0/right arm1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0/right arm1/right
+          hand
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0/right arm1/right
+          hand/right fingers0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0/right arm1/right
+          hand/right fingers0/right fingers1
+        weight: 1
+      - path: arge_LOD_0
+        weight: 1
+      - path: arge_LOD_1
+        weight: 1
+      - path: arge_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Arge|EatC
+      takeName: Arge|EatC
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arge
+        weight: 1
+      - path: Arge/root
+        weight: 1
+      - path: Arge/root/pelvis
+        weight: 1
+      - path: Arge/root/pelvis/left hips
+        weight: 1
+      - path: Arge/root/pelvis/left hips/left leg
+        weight: 1
+      - path: Arge/root/pelvis/left hips/left leg/left foot
+        weight: 1
+      - path: Arge/root/pelvis/left hips/left leg/left foot/left toes0
+        weight: 1
+      - path: Arge/root/pelvis/left hips/left leg/left foot/left toes0/left toes1
+        weight: 1
+      - path: Arge/root/pelvis/right hips
+        weight: 1
+      - path: Arge/root/pelvis/right hips/right leg
+        weight: 1
+      - path: Arge/root/pelvis/right hips/right leg/right foot
+        weight: 1
+      - path: Arge/root/pelvis/right hips/right leg/right foot/right toes0
+        weight: 1
+      - path: Arge/root/pelvis/right hips/right leg/right foot/right toes0/right toes1
+        weight: 1
+      - path: Arge/root/pelvis/tail0
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: Arge/root/spine0
+        weight: 1
+      - path: Arge/root/spine0/spine1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0/left arm1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0/left arm1/left
+          hand
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0/left arm1/left
+          hand/left fingers0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0/left arm1/left
+          hand/left fingers0/left finger1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/eyes
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/eyes/left
+          eye
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/eyes/right
+          eye
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0/jaw1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0/tongue0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0/right arm1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0/right arm1/right
+          hand
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0/right arm1/right
+          hand/right fingers0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0/right arm1/right
+          hand/right fingers0/right fingers1
+        weight: 1
+      - path: arge_LOD_0
+        weight: 1
+      - path: arge_LOD_1
+        weight: 1
+      - path: arge_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Arge|Rise
+      takeName: Arge|Rise
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arge
+        weight: 1
+      - path: Arge/root
+        weight: 1
+      - path: Arge/root/pelvis
+        weight: 1
+      - path: Arge/root/pelvis/left hips
+        weight: 1
+      - path: Arge/root/pelvis/left hips/left leg
+        weight: 1
+      - path: Arge/root/pelvis/left hips/left leg/left foot
+        weight: 1
+      - path: Arge/root/pelvis/left hips/left leg/left foot/left toes0
+        weight: 1
+      - path: Arge/root/pelvis/left hips/left leg/left foot/left toes0/left toes1
+        weight: 1
+      - path: Arge/root/pelvis/right hips
+        weight: 1
+      - path: Arge/root/pelvis/right hips/right leg
+        weight: 1
+      - path: Arge/root/pelvis/right hips/right leg/right foot
+        weight: 1
+      - path: Arge/root/pelvis/right hips/right leg/right foot/right toes0
+        weight: 1
+      - path: Arge/root/pelvis/right hips/right leg/right foot/right toes0/right toes1
+        weight: 1
+      - path: Arge/root/pelvis/tail0
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: Arge/root/spine0
+        weight: 1
+      - path: Arge/root/spine0/spine1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0/left arm1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0/left arm1/left
+          hand
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0/left arm1/left
+          hand/left fingers0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0/left arm1/left
+          hand/left fingers0/left finger1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/eyes
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/eyes/left
+          eye
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/eyes/right
+          eye
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0/jaw1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0/tongue0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0/right arm1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0/right arm1/right
+          hand
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0/right arm1/right
+          hand/right fingers0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0/right arm1/right
+          hand/right fingers0/right fingers1
+        weight: 1
+      - path: arge_LOD_0
+        weight: 1
+      - path: arge_LOD_1
+        weight: 1
+      - path: arge_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Arge|RiseGrowl
+      takeName: Arge|RiseGrowl
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arge
+        weight: 1
+      - path: Arge/root
+        weight: 1
+      - path: Arge/root/pelvis
+        weight: 1
+      - path: Arge/root/pelvis/left hips
+        weight: 1
+      - path: Arge/root/pelvis/left hips/left leg
+        weight: 1
+      - path: Arge/root/pelvis/left hips/left leg/left foot
+        weight: 1
+      - path: Arge/root/pelvis/left hips/left leg/left foot/left toes0
+        weight: 1
+      - path: Arge/root/pelvis/left hips/left leg/left foot/left toes0/left toes1
+        weight: 1
+      - path: Arge/root/pelvis/right hips
+        weight: 1
+      - path: Arge/root/pelvis/right hips/right leg
+        weight: 1
+      - path: Arge/root/pelvis/right hips/right leg/right foot
+        weight: 1
+      - path: Arge/root/pelvis/right hips/right leg/right foot/right toes0
+        weight: 1
+      - path: Arge/root/pelvis/right hips/right leg/right foot/right toes0/right toes1
+        weight: 1
+      - path: Arge/root/pelvis/tail0
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: Arge/root/spine0
+        weight: 1
+      - path: Arge/root/spine0/spine1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0/left arm1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0/left arm1/left
+          hand
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0/left arm1/left
+          hand/left fingers0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0/left arm1/left
+          hand/left fingers0/left finger1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/eyes
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/eyes/left
+          eye
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/eyes/right
+          eye
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0/jaw1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0/tongue0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0/right arm1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0/right arm1/right
+          hand
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0/right arm1/right
+          hand/right fingers0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0/right arm1/right
+          hand/right fingers0/right fingers1
+        weight: 1
+      - path: arge_LOD_0
+        weight: 1
+      - path: arge_LOD_1
+        weight: 1
+      - path: arge_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Arge|RiseStand
+      takeName: Arge|RiseStand
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arge
+        weight: 1
+      - path: Arge/root
+        weight: 1
+      - path: Arge/root/pelvis
+        weight: 1
+      - path: Arge/root/pelvis/left hips
+        weight: 1
+      - path: Arge/root/pelvis/left hips/left leg
+        weight: 1
+      - path: Arge/root/pelvis/left hips/left leg/left foot
+        weight: 1
+      - path: Arge/root/pelvis/left hips/left leg/left foot/left toes0
+        weight: 1
+      - path: Arge/root/pelvis/left hips/left leg/left foot/left toes0/left toes1
+        weight: 1
+      - path: Arge/root/pelvis/right hips
+        weight: 1
+      - path: Arge/root/pelvis/right hips/right leg
+        weight: 1
+      - path: Arge/root/pelvis/right hips/right leg/right foot
+        weight: 1
+      - path: Arge/root/pelvis/right hips/right leg/right foot/right toes0
+        weight: 1
+      - path: Arge/root/pelvis/right hips/right leg/right foot/right toes0/right toes1
+        weight: 1
+      - path: Arge/root/pelvis/tail0
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: Arge/root/spine0
+        weight: 1
+      - path: Arge/root/spine0/spine1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0/left arm1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0/left arm1/left
+          hand
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0/left arm1/left
+          hand/left fingers0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0/left arm1/left
+          hand/left fingers0/left finger1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/eyes
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/eyes/left
+          eye
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/eyes/right
+          eye
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0/jaw1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0/tongue0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0/right arm1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0/right arm1/right
+          hand
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0/right arm1/right
+          hand/right fingers0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0/right arm1/right
+          hand/right fingers0/right fingers1
+        weight: 1
+      - path: arge_LOD_0
+        weight: 1
+      - path: arge_LOD_1
+        weight: 1
+      - path: arge_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Arge|SitA
+      takeName: Arge|SitA
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arge
+        weight: 1
+      - path: Arge/root
+        weight: 1
+      - path: Arge/root/pelvis
+        weight: 1
+      - path: Arge/root/pelvis/left hips
+        weight: 1
+      - path: Arge/root/pelvis/left hips/left leg
+        weight: 1
+      - path: Arge/root/pelvis/left hips/left leg/left foot
+        weight: 1
+      - path: Arge/root/pelvis/left hips/left leg/left foot/left toes0
+        weight: 1
+      - path: Arge/root/pelvis/left hips/left leg/left foot/left toes0/left toes1
+        weight: 1
+      - path: Arge/root/pelvis/right hips
+        weight: 1
+      - path: Arge/root/pelvis/right hips/right leg
+        weight: 1
+      - path: Arge/root/pelvis/right hips/right leg/right foot
+        weight: 1
+      - path: Arge/root/pelvis/right hips/right leg/right foot/right toes0
+        weight: 1
+      - path: Arge/root/pelvis/right hips/right leg/right foot/right toes0/right toes1
+        weight: 1
+      - path: Arge/root/pelvis/tail0
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: Arge/root/spine0
+        weight: 1
+      - path: Arge/root/spine0/spine1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0/left arm1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0/left arm1/left
+          hand
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0/left arm1/left
+          hand/left fingers0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0/left arm1/left
+          hand/left fingers0/left finger1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/eyes
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/eyes/left
+          eye
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/eyes/right
+          eye
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0/jaw1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0/tongue0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0/right arm1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0/right arm1/right
+          hand
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0/right arm1/right
+          hand/right fingers0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0/right arm1/right
+          hand/right fingers0/right fingers1
+        weight: 1
+      - path: arge_LOD_0
+        weight: 1
+      - path: arge_LOD_1
+        weight: 1
+      - path: arge_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Arge|SitB
+      takeName: Arge|SitB
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arge
+        weight: 1
+      - path: Arge/root
+        weight: 1
+      - path: Arge/root/pelvis
+        weight: 1
+      - path: Arge/root/pelvis/left hips
+        weight: 1
+      - path: Arge/root/pelvis/left hips/left leg
+        weight: 1
+      - path: Arge/root/pelvis/left hips/left leg/left foot
+        weight: 1
+      - path: Arge/root/pelvis/left hips/left leg/left foot/left toes0
+        weight: 1
+      - path: Arge/root/pelvis/left hips/left leg/left foot/left toes0/left toes1
+        weight: 1
+      - path: Arge/root/pelvis/right hips
+        weight: 1
+      - path: Arge/root/pelvis/right hips/right leg
+        weight: 1
+      - path: Arge/root/pelvis/right hips/right leg/right foot
+        weight: 1
+      - path: Arge/root/pelvis/right hips/right leg/right foot/right toes0
+        weight: 1
+      - path: Arge/root/pelvis/right hips/right leg/right foot/right toes0/right toes1
+        weight: 1
+      - path: Arge/root/pelvis/tail0
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: Arge/root/spine0
+        weight: 1
+      - path: Arge/root/spine0/spine1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0/left arm1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0/left arm1/left
+          hand
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0/left arm1/left
+          hand/left fingers0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0/left arm1/left
+          hand/left fingers0/left finger1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/eyes
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/eyes/left
+          eye
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/eyes/right
+          eye
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0/jaw1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0/tongue0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0/right arm1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0/right arm1/right
+          hand
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0/right arm1/right
+          hand/right fingers0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0/right arm1/right
+          hand/right fingers0/right fingers1
+        weight: 1
+      - path: arge_LOD_0
+        weight: 1
+      - path: arge_LOD_1
+        weight: 1
+      - path: arge_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Arge|Sitting
+      takeName: Arge|Sitting
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arge
+        weight: 1
+      - path: Arge/root
+        weight: 1
+      - path: Arge/root/pelvis
+        weight: 1
+      - path: Arge/root/pelvis/left hips
+        weight: 1
+      - path: Arge/root/pelvis/left hips/left leg
+        weight: 1
+      - path: Arge/root/pelvis/left hips/left leg/left foot
+        weight: 1
+      - path: Arge/root/pelvis/left hips/left leg/left foot/left toes0
+        weight: 1
+      - path: Arge/root/pelvis/left hips/left leg/left foot/left toes0/left toes1
+        weight: 1
+      - path: Arge/root/pelvis/right hips
+        weight: 1
+      - path: Arge/root/pelvis/right hips/right leg
+        weight: 1
+      - path: Arge/root/pelvis/right hips/right leg/right foot
+        weight: 1
+      - path: Arge/root/pelvis/right hips/right leg/right foot/right toes0
+        weight: 1
+      - path: Arge/root/pelvis/right hips/right leg/right foot/right toes0/right toes1
+        weight: 1
+      - path: Arge/root/pelvis/tail0
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: Arge/root/spine0
+        weight: 1
+      - path: Arge/root/spine0/spine1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0/left arm1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0/left arm1/left
+          hand
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0/left arm1/left
+          hand/left fingers0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0/left arm1/left
+          hand/left fingers0/left finger1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/eyes
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/eyes/left
+          eye
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/eyes/right
+          eye
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0/jaw1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0/tongue0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0/right arm1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0/right arm1/right
+          hand
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0/right arm1/right
+          hand/right fingers0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0/right arm1/right
+          hand/right fingers0/right fingers1
+        weight: 1
+      - path: arge_LOD_0
+        weight: 1
+      - path: arge_LOD_1
+        weight: 1
+      - path: arge_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Arge|Sleep
+      takeName: Arge|Sleep
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arge
+        weight: 1
+      - path: Arge/root
+        weight: 1
+      - path: Arge/root/pelvis
+        weight: 1
+      - path: Arge/root/pelvis/left hips
+        weight: 1
+      - path: Arge/root/pelvis/left hips/left leg
+        weight: 1
+      - path: Arge/root/pelvis/left hips/left leg/left foot
+        weight: 1
+      - path: Arge/root/pelvis/left hips/left leg/left foot/left toes0
+        weight: 1
+      - path: Arge/root/pelvis/left hips/left leg/left foot/left toes0/left toes1
+        weight: 1
+      - path: Arge/root/pelvis/right hips
+        weight: 1
+      - path: Arge/root/pelvis/right hips/right leg
+        weight: 1
+      - path: Arge/root/pelvis/right hips/right leg/right foot
+        weight: 1
+      - path: Arge/root/pelvis/right hips/right leg/right foot/right toes0
+        weight: 1
+      - path: Arge/root/pelvis/right hips/right leg/right foot/right toes0/right toes1
+        weight: 1
+      - path: Arge/root/pelvis/tail0
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: Arge/root/spine0
+        weight: 1
+      - path: Arge/root/spine0/spine1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0/left arm1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0/left arm1/left
+          hand
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0/left arm1/left
+          hand/left fingers0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0/left arm1/left
+          hand/left fingers0/left finger1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/eyes
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/eyes/left
+          eye
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/eyes/right
+          eye
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0/jaw1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0/tongue0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0/right arm1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0/right arm1/right
+          hand
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0/right arm1/right
+          hand/right fingers0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0/right arm1/right
+          hand/right fingers0/right fingers1
+        weight: 1
+      - path: arge_LOD_0
+        weight: 1
+      - path: arge_LOD_1
+        weight: 1
+      - path: arge_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Arge|StandA
+      takeName: Arge|StandA
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arge
+        weight: 1
+      - path: Arge/root
+        weight: 1
+      - path: Arge/root/pelvis
+        weight: 1
+      - path: Arge/root/pelvis/left hips
+        weight: 1
+      - path: Arge/root/pelvis/left hips/left leg
+        weight: 1
+      - path: Arge/root/pelvis/left hips/left leg/left foot
+        weight: 1
+      - path: Arge/root/pelvis/left hips/left leg/left foot/left toes0
+        weight: 1
+      - path: Arge/root/pelvis/left hips/left leg/left foot/left toes0/left toes1
+        weight: 1
+      - path: Arge/root/pelvis/right hips
+        weight: 1
+      - path: Arge/root/pelvis/right hips/right leg
+        weight: 1
+      - path: Arge/root/pelvis/right hips/right leg/right foot
+        weight: 1
+      - path: Arge/root/pelvis/right hips/right leg/right foot/right toes0
+        weight: 1
+      - path: Arge/root/pelvis/right hips/right leg/right foot/right toes0/right toes1
+        weight: 1
+      - path: Arge/root/pelvis/tail0
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: Arge/root/spine0
+        weight: 1
+      - path: Arge/root/spine0/spine1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0/left arm1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0/left arm1/left
+          hand
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0/left arm1/left
+          hand/left fingers0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0/left arm1/left
+          hand/left fingers0/left finger1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/eyes
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/eyes/left
+          eye
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/eyes/right
+          eye
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0/jaw1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0/tongue0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0/right arm1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0/right arm1/right
+          hand
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0/right arm1/right
+          hand/right fingers0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0/right arm1/right
+          hand/right fingers0/right fingers1
+        weight: 1
+      - path: arge_LOD_0
+        weight: 1
+      - path: arge_LOD_1
+        weight: 1
+      - path: arge_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Arge|StandB
+      takeName: Arge|StandB
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arge
+        weight: 1
+      - path: Arge/root
+        weight: 1
+      - path: Arge/root/pelvis
+        weight: 1
+      - path: Arge/root/pelvis/left hips
+        weight: 1
+      - path: Arge/root/pelvis/left hips/left leg
+        weight: 1
+      - path: Arge/root/pelvis/left hips/left leg/left foot
+        weight: 1
+      - path: Arge/root/pelvis/left hips/left leg/left foot/left toes0
+        weight: 1
+      - path: Arge/root/pelvis/left hips/left leg/left foot/left toes0/left toes1
+        weight: 1
+      - path: Arge/root/pelvis/right hips
+        weight: 1
+      - path: Arge/root/pelvis/right hips/right leg
+        weight: 1
+      - path: Arge/root/pelvis/right hips/right leg/right foot
+        weight: 1
+      - path: Arge/root/pelvis/right hips/right leg/right foot/right toes0
+        weight: 1
+      - path: Arge/root/pelvis/right hips/right leg/right foot/right toes0/right toes1
+        weight: 1
+      - path: Arge/root/pelvis/tail0
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: Arge/root/spine0
+        weight: 1
+      - path: Arge/root/spine0/spine1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0/left arm1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0/left arm1/left
+          hand
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0/left arm1/left
+          hand/left fingers0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0/left arm1/left
+          hand/left fingers0/left finger1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/eyes
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/eyes/left
+          eye
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/eyes/right
+          eye
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0/jaw1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0/tongue0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0/right arm1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0/right arm1/right
+          hand
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0/right arm1/right
+          hand/right fingers0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0/right arm1/right
+          hand/right fingers0/right fingers1
+        weight: 1
+      - path: arge_LOD_0
+        weight: 1
+      - path: arge_LOD_1
+        weight: 1
+      - path: arge_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Arge|Strafe
+      takeName: Arge|Strafe
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arge
+        weight: 1
+      - path: Arge/root
+        weight: 1
+      - path: Arge/root/pelvis
+        weight: 1
+      - path: Arge/root/pelvis/left hips
+        weight: 1
+      - path: Arge/root/pelvis/left hips/left leg
+        weight: 1
+      - path: Arge/root/pelvis/left hips/left leg/left foot
+        weight: 1
+      - path: Arge/root/pelvis/left hips/left leg/left foot/left toes0
+        weight: 1
+      - path: Arge/root/pelvis/left hips/left leg/left foot/left toes0/left toes1
+        weight: 1
+      - path: Arge/root/pelvis/right hips
+        weight: 1
+      - path: Arge/root/pelvis/right hips/right leg
+        weight: 1
+      - path: Arge/root/pelvis/right hips/right leg/right foot
+        weight: 1
+      - path: Arge/root/pelvis/right hips/right leg/right foot/right toes0
+        weight: 1
+      - path: Arge/root/pelvis/right hips/right leg/right foot/right toes0/right toes1
+        weight: 1
+      - path: Arge/root/pelvis/tail0
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: Arge/root/spine0
+        weight: 1
+      - path: Arge/root/spine0/spine1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0/left arm1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0/left arm1/left
+          hand
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0/left arm1/left
+          hand/left fingers0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0/left arm1/left
+          hand/left fingers0/left finger1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/eyes
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/eyes/left
+          eye
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/eyes/right
+          eye
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0/jaw1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0/tongue0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0/right arm1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0/right arm1/right
+          hand
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0/right arm1/right
+          hand/right fingers0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0/right arm1/right
+          hand/right fingers0/right fingers1
+        weight: 1
+      - path: arge_LOD_0
+        weight: 1
+      - path: arge_LOD_1
+        weight: 1
+      - path: arge_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Arge|Walk
+      takeName: Arge|Walk
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arge
+        weight: 1
+      - path: Arge/root
+        weight: 1
+      - path: Arge/root/pelvis
+        weight: 1
+      - path: Arge/root/pelvis/left hips
+        weight: 1
+      - path: Arge/root/pelvis/left hips/left leg
+        weight: 1
+      - path: Arge/root/pelvis/left hips/left leg/left foot
+        weight: 1
+      - path: Arge/root/pelvis/left hips/left leg/left foot/left toes0
+        weight: 1
+      - path: Arge/root/pelvis/left hips/left leg/left foot/left toes0/left toes1
+        weight: 1
+      - path: Arge/root/pelvis/right hips
+        weight: 1
+      - path: Arge/root/pelvis/right hips/right leg
+        weight: 1
+      - path: Arge/root/pelvis/right hips/right leg/right foot
+        weight: 1
+      - path: Arge/root/pelvis/right hips/right leg/right foot/right toes0
+        weight: 1
+      - path: Arge/root/pelvis/right hips/right leg/right foot/right toes0/right toes1
+        weight: 1
+      - path: Arge/root/pelvis/tail0
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: Arge/root/spine0
+        weight: 1
+      - path: Arge/root/spine0/spine1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0/left arm1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0/left arm1/left
+          hand
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0/left arm1/left
+          hand/left fingers0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0/left arm1/left
+          hand/left fingers0/left finger1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/eyes
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/eyes/left
+          eye
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/eyes/right
+          eye
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0/jaw1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0/tongue0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0/right arm1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0/right arm1/right
+          hand
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0/right arm1/right
+          hand/right fingers0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0/right arm1/right
+          hand/right fingers0/right fingers1
+        weight: 1
+      - path: arge_LOD_0
+        weight: 1
+      - path: arge_LOD_1
+        weight: 1
+      - path: arge_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Arge|WalkGrowl
+      takeName: Arge|WalkGrowl
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arge
+        weight: 1
+      - path: Arge/root
+        weight: 1
+      - path: Arge/root/pelvis
+        weight: 1
+      - path: Arge/root/pelvis/left hips
+        weight: 1
+      - path: Arge/root/pelvis/left hips/left leg
+        weight: 1
+      - path: Arge/root/pelvis/left hips/left leg/left foot
+        weight: 1
+      - path: Arge/root/pelvis/left hips/left leg/left foot/left toes0
+        weight: 1
+      - path: Arge/root/pelvis/left hips/left leg/left foot/left toes0/left toes1
+        weight: 1
+      - path: Arge/root/pelvis/right hips
+        weight: 1
+      - path: Arge/root/pelvis/right hips/right leg
+        weight: 1
+      - path: Arge/root/pelvis/right hips/right leg/right foot
+        weight: 1
+      - path: Arge/root/pelvis/right hips/right leg/right foot/right toes0
+        weight: 1
+      - path: Arge/root/pelvis/right hips/right leg/right foot/right toes0/right toes1
+        weight: 1
+      - path: Arge/root/pelvis/tail0
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5/tail6
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7
+        weight: 1
+      - path: Arge/root/pelvis/tail0/tail1/tail2/tail3/tail4/tail5/tail6/tail7/tail8
+        weight: 1
+      - path: Arge/root/spine0
+        weight: 1
+      - path: Arge/root/spine0/spine1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0/left arm1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0/left arm1/left
+          hand
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0/left arm1/left
+          hand/left fingers0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/left arm0/left arm1/left
+          hand/left fingers0/left finger1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/eyes
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/eyes/left
+          eye
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/eyes/right
+          eye
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0/jaw1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0/tongue0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0/tongue0/tongue1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/neck0/neck1/neck2/neck3/neck4/neck5/neck6/neck7/neck8/neck9/neck10/neck11/neck12/neck13/neck14/neck15/neck16/head/jaw0/tongue0/tongue1/tongue2
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0/right arm1
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0/right arm1/right
+          hand
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0/right arm1/right
+          hand/right fingers0
+        weight: 1
+      - path: Arge/root/spine0/spine1/spine2/spine3/spine4/right arm0/right arm1/right
+          hand/right fingers0/right fingers1
+        weight: 1
+      - path: arge_LOD_0
+        weight: 1
+      - path: arge_LOD_1
+        weight: 1
+      - path: arge_LOD_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

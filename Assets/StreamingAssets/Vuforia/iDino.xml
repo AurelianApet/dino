@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="Apatosaurus1" size="500.000000 339.274933" />
+    <ImageTarget name="Velociraptor1" size="500.000000 339.274933" />
+    <ImageTarget name="Tricratops1" size="500.000000 339.274933" />
+    <ImageTarget name="Stegosaurus1" size="500.000000 339.274933" />
+    <ImageTarget name="Spinosaurus1" size="500.000000 339.274933" />
+    <ImageTarget name="Pteranodon1" size="500.000000 339.274933" />
+    <ImageTarget name="Brachiosaurus1" size="500.000000 339.274933" />
+    <ImageTarget name="T-Rex1" size="500.000000 339.274933" />
+    <ImageTarget name="Velociraptor" size="500.000000 317.421783" />
+    <ImageTarget name="Tricratops" size="500.000000 317.789764" />
+    <ImageTarget name="T-Rex" size="500.000000 317.421783" />
+    <ImageTarget name="Stegosaurus" size="500.000000 317.421783" />
+    <ImageTarget name="Spinosaurus" size="500.000000 317.421783" />
+    <ImageTarget name="Pteranodon" size="500.000000 317.691467" />
+    <ImageTarget name="Brachiosaurus" size="500.000000 317.961151" />
+    <ImageTarget name="Apatosaurus" size="500.000000 317.421783" />
+  </Tracking>
+</QCARConfig>
